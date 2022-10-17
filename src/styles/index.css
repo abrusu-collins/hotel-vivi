@@ -17,6 +17,14 @@
   box-sizing: border-box;
 }
 
+.top-left {
+  border-top-left-radius: 35px;
+}
+
+.bottom-right {
+  border-bottom-right-radius: 35px;
+}
+
 .hero {
   position: relative;
   height: 100vh;
@@ -143,6 +151,7 @@ video {
   font-family: wtlight;
   background-color: black;
   color: white;
+  padding-bottom: 50px;
 }
 .place .title {
   padding: 50px 0;
@@ -151,7 +160,7 @@ video {
   font-family: "Roboto Slab", serif;
 }
 .place .reasons {
-  width: 60%;
+  width: 65%;
   margin: auto;
 }
 .place .reasons > div {

@@ -10,7 +10,7 @@ function Place() {
 
       <div className="reasons">
         <div className="afford">
-          <div className="describe">
+          <div className="describe top-left">
             <p className="reasontitle">AFFORDABLE PRICES</p>
             <p className="about">
               Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iure
@@ -48,7 +48,7 @@ function Place() {
         <div className="security">
           <img src={security} alt="" />
 
-          <div className="describe">
+          <div className="describe bottom-right">
             <p className="reasontitle">SECURITY GUARANTEED</p>
             <p className="about">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus
