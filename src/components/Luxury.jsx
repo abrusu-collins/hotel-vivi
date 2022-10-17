@@ -15,7 +15,7 @@ import _11 from "../img/11.jpg";
 function Luxury() {
   return (
     <div className="luxury">
-      <p className="luxuryheading">Luxurious Experience at Hotelvivi</p>
+      <p className="luxuryheading">At Hotelvivi, Luxury is our Love Language</p>
       <div className="carousel">
         <Carousel>
           <div>
