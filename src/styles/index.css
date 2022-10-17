@@ -152,6 +152,7 @@ video {
   background-color: black;
   color: white;
   padding-bottom: 50px;
+  border-bottom: 2px dashed white;
 }
 .place .title {
   padding: 50px 0;
