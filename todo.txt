@@ -1,3 +1,5 @@
 change bar png
+customer reviews
 footer background
-do footerresponsive
+do footer
+responsive
