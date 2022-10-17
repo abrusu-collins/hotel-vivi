@@ -22,6 +22,7 @@ function Place() {
           <img src={afford} alt="" />
         </div>
         <div className="serene">
+          <img src={serene} alt="" />
           <div className="describe">
             <p className="reasontitle">COMFORTABLE ROOMS</p>
             <p className="about">
@@ -31,7 +32,6 @@ function Place() {
               Expedita incidunt nam quam.
             </p>
           </div>
-          <img src={serene} alt="" />
         </div>
         <div className="comfort">
           <div className="describe">
@@ -46,6 +46,8 @@ function Place() {
           <img src={comfort} alt="" />
         </div>
         <div className="security">
+          <img src={security} alt="" />
+
           <div className="describe">
             <p className="reasontitle">SECURITY GUARANTEED</p>
             <p className="about">
@@ -55,7 +57,6 @@ function Place() {
               ducimus fuga. Id, cumque.
             </p>
           </div>
-          <img src={security} alt="" />
         </div>
       </div>
     </div>
