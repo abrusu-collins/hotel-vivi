@@ -11,7 +11,7 @@ function Place() {
       <div className="reasons">
         <div className="afford">
           <div className="describe">
-            <p className="title">AFFORDABLE PRICES</p>
+            <p className="reasontitle">AFFORDABLE PRICES</p>
             <p className="about">
               Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iure
               asperiores sed enim ab natus aut beatae id deleniti itaque, earum
@@ -19,11 +19,11 @@ function Place() {
               facere repudiandae.
             </p>
           </div>
-          <img src="" alt="" />
+          <img src={afford} alt="" />
         </div>
         <div className="serene">
           <div className="describe">
-            <p className="title">COMFORTABLE ROOMS</p>
+            <p className="reasontitle">COMFORTABLE ROOMS</p>
             <p className="about">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime
               ipsum voluptates, eius totam laboriosam eaque nam dolor tenetur
@@ -31,11 +31,11 @@ function Place() {
               Expedita incidunt nam quam.
             </p>
           </div>
-          <img src="" alt="" />
+          <img src={serene} alt="" />
         </div>
         <div className="comfort">
           <div className="describe">
-            <p className="title">SERENE ENVIRONMENT</p>
+            <p className="reasontitle">SERENE ENVIRONMENT</p>
             <p className="about">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero
               dolorem aperiam cumque totam hic, sint accusamus necessitatibus,
@@ -43,11 +43,11 @@ function Place() {
               tempora soluta. Dolorum, aliquam excepturi.
             </p>
           </div>
-          <img src="" alt="" />
+          <img src={comfort} alt="" />
         </div>
         <div className="security">
           <div className="describe">
-            <p className="title">SECURITY GUARANTEED</p>
+            <p className="reasontitle">SECURITY GUARANTEED</p>
             <p className="about">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus
               eaque suscipit possimus magni blanditiis similique dolorum neque
@@ -55,7 +55,7 @@ function Place() {
               ducimus fuga. Id, cumque.
             </p>
           </div>
-          <img src="" alt="" />
+          <img src={security} alt="" />
         </div>
       </div>
     </div>

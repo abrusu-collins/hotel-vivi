@@ -8,4 +8,10 @@
         font-family: "Roboto Slab", serif;
 
     }
+    & .reasons {
+        & > div{
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+        }
+    }
 }
