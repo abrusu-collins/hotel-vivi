@@ -1,0 +1,3 @@
+change bar png
+footer background
+do footerresponsive
