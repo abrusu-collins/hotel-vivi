@@ -1,0 +1,50 @@
+.all4u {
+  font-family: wtlight;
+  padding-bottom: 50px;
+  background-color: black;
+  color: white;
+  border-bottom: 2px dashed white;
+  & .all4uheading {
+    font-size: 60px;
+    font-family: "Roboto Slab", serif;
+    text-align: center;
+    padding: 50px 0;
+  }
+  & .offers {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 5rem;
+    width: 70%;
+    margin: auto;
+    & div {
+      background-color: $dark_background;
+      border-top-left-radius: 35px;
+      text-align: center;
+      padding-bottom: 30px;
+      border-bottom-right-radius: 35px;
+      & .title {
+        font-family: "Roboto Slab", serif;
+        font-size: 20px;
+        text-align: center;
+        padding: 20px 0;
+      }
+      & .about {
+        padding: 0 20px 20px 20px;
+      }
+      & img {
+        width: 100%;
+        border-top-left-radius: 35px;
+        border-bottom-right-radius: 35px;
+      }
+      & a {
+        text-decoration: none;
+        color: inherit;
+        background-color: $button_background;
+        padding: 12px 30px;
+        display: inline-block;
+        border-top-left-radius: 15px;
+        border-bottom-right-radius: 15px;
+      }
+    }
+  }
+}

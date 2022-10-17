@@ -1,0 +1,140 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap");
+@font-face {
+  font-family: wt;
+  src: url("../fonts/WhitneyHTF-Book.woff2");
+}
+@font-face {
+  font-family: wtlight;
+  src: url("../fonts/whitneyhtf-light.27502126ab5d4edca4cd6fc7f9d09eb8-webfont.woff2");
+}
+@font-face {
+  font-family: wtsemibold;
+  src: url("../fonts/whitneyhtf-semibold.07c6883ca1de7b74c59d207ce9d5845e-webfont.woff2");
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.hero {
+  position: relative;
+  height: 100vh;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.hero .text {
+  z-index: 1;
+  height: 100vh;
+  width: 100%;
+  background: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75));
+  color: white;
+  font-size: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: wtlight;
+  border-bottom: 2px dashed white;
+}
+.hero .text .home {
+  margin: 20px 0;
+  font-size: 30px;
+}
+.hero .text .welcome {
+  font-family: "Roboto Slab", serif;
+  font-size: 60px;
+}
+.hero .text a {
+  color: inherit;
+  text-decoration: none;
+  background-color: #fe0036;
+  padding: 12px 40px;
+  display: inline-block;
+  border-top-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+
+video {
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.luxury {
+  color: white;
+  padding-bottom: 50px;
+  background: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75));
+}
+.luxury .luxuryheading {
+  font-size: 60px;
+  text-align: center;
+  font-family: "Roboto Slab", serif;
+  padding: 50px 0;
+}
+.luxury .carousel {
+  width: 50%;
+  margin: auto;
+}
+.luxury .carousel img {
+  border-top-left-radius: 35px;
+  border-bottom-right-radius: 35px;
+}
+
+.all4u {
+  font-family: wtlight;
+  padding-bottom: 50px;
+  background-color: black;
+  color: white;
+  border-bottom: 2px dashed white;
+}
+.all4u .all4uheading {
+  font-size: 60px;
+  font-family: "Roboto Slab", serif;
+  text-align: center;
+  padding: 50px 0;
+}
+.all4u .offers {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 5rem;
+  width: 70%;
+  margin: auto;
+}
+.all4u .offers div {
+  background-color: #080808;
+  border-top-left-radius: 35px;
+  text-align: center;
+  padding-bottom: 30px;
+  border-bottom-right-radius: 35px;
+}
+.all4u .offers div .title {
+  font-family: "Roboto Slab", serif;
+  font-size: 20px;
+  text-align: center;
+  padding: 20px 0;
+}
+.all4u .offers div .about {
+  padding: 0 20px 20px 20px;
+}
+.all4u .offers div img {
+  width: 100%;
+  border-top-left-radius: 35px;
+  border-bottom-right-radius: 35px;
+}
+.all4u .offers div a {
+  text-decoration: none;
+  color: inherit;
+  background-color: #fe0036;
+  padding: 12px 30px;
+  display: inline-block;
+  border-top-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
