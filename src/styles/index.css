@@ -188,3 +188,8 @@ video {
   font-size: 20px;
   margin-bottom: 20px;
 }
+
+.footer {
+  height: 100vh;
+  background-color: #080808;
+}
