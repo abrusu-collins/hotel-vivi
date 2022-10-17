@@ -24,7 +24,7 @@ function Place() {
         <div className="serene">
           <img src={serene} alt="" />
           <div className="describe">
-            <p className="reasontitle">COMFORTABLE ROOMS</p>
+            <p className="reasontitle">SERENE ENVIRONMENT </p>
             <p className="about">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime
               ipsum voluptates, eius totam laboriosam eaque nam dolor tenetur
@@ -35,7 +35,7 @@ function Place() {
         </div>
         <div className="comfort">
           <div className="describe">
-            <p className="reasontitle">SERENE ENVIRONMENT</p>
+            <p className="reasontitle">COMFORTABLE ROOMS</p>
             <p className="about">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero
               dolorem aperiam cumque totam hic, sint accusamus necessitatibus,
