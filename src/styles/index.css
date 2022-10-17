@@ -149,7 +149,21 @@ video {
   text-align: center;
   font-family: "Roboto Slab", serif;
 }
+.place .reasons {
+  width: 60%;
+  margin: auto;
+}
 .place .reasons > div {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+}
+.place .reasons > div div {
+  background-color: #080808;
+  width: 100%;
+  height: 100%;
+}
+.place .reasons > div img {
+  width: 100%;
+  height: 100%;
 }
