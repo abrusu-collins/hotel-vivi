@@ -1,4 +1,5 @@
 .place {
+    font-family: wtlight;
   background-color: black;
   color: white;
   & .title {
@@ -18,11 +19,21 @@
         background-color: $dark_background;
         width: 100%;
         height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 50px;
       }
       & img {
         width: 100%;
         height: 100%;
       }
+    }
+    & .reasontitle{
+        font-family: "Roboto Slab", serif;
+        font-size: 20px;
+        margin-bottom: 20px;
     }
   }
 }
