@@ -1,0 +1,35 @@
+.navbar {
+  background-color: black;
+  height: 10vh;
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 14px;
+  & p {
+    font-family: "Roboto Slab", serif;
+  }
+  & ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    & li {
+      margin-right: 40px;
+      & a {
+        text-decoration: none;
+        color: inherit;
+        padding: 10px;
+        border-top-left-radius: 15px;
+        border-bottom-right-radius: 15px;
+        &:hover {
+          background-color: $button_background;
+          opacity: 1;
+          
+        }
+      }
+    }
+  }
+  & .bar {
+    display: none;
+  }
+}

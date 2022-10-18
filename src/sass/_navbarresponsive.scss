@@ -1,0 +1,23 @@
+@media screen and (max-width: 788px) {
+    .navbar {
+      .bar {
+        display: block;
+      }
+      ul {
+        display: none;
+        & li {
+          margin-bottom: 20px;
+        }
+      }
+    }
+  }
+  
+  .navremoval {
+    display: block !important;
+    text-align: center;
+  }
+  
+  .space {
+    height: 35vh !important;
+  }
+  

@@ -40,6 +40,41 @@ a:hover {
   opacity: 0.5;
 }
 
+.navbar {
+  background-color: black;
+  height: 10vh;
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 14px;
+}
+.navbar p {
+  font-family: "Roboto Slab", serif;
+}
+.navbar ul {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+}
+.navbar ul li {
+  margin-right: 40px;
+}
+.navbar ul li a {
+  text-decoration: none;
+  color: inherit;
+  padding: 10px;
+  border-top-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+.navbar ul li a:hover {
+  background-color: #fe0036;
+  opacity: 1;
+}
+.navbar .bar {
+  display: none;
+}
+
 .hero {
   position: relative;
   height: 100vh;
@@ -314,4 +349,24 @@ video {
   display: inline-block;
   border-top-left-radius: 15px;
   border-bottom-right-radius: 15px;
+}
+
+@media screen and (max-width: 788px) {
+  .navbar .bar {
+    display: block;
+  }
+  .navbar ul {
+    display: none;
+  }
+  .navbar ul li {
+    margin-bottom: 20px;
+  }
+}
+.navremoval {
+  display: block !important;
+  text-align: center;
+}
+
+.space {
+  height: 35vh !important;
 }
