@@ -241,6 +241,9 @@ video {
   align-items: center;
   justify-content: center;
 }
+.reviews .flex-1 div {
+  text-align: center;
+}
 
 .footer {
   height: 100vh;
