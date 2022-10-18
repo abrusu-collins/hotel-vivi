@@ -15,7 +15,14 @@ function Footer() {
                 </div>
             </div>
             <div className="devandreach">
-
+            <div>
+                <p className="footerheading">Developed By:</p>
+                <p>DevTech Software Company</p>
+            </div>
+            <div>
+            <p className="footerheading">Contact Us:</p>
+                <p>info@hotelvivi.com</p>
+            </div>
             </div>
         </div>
      );
