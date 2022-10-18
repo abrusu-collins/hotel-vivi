@@ -266,6 +266,20 @@ video {
   margin: auto;
   width: 70%;
 }
+.footer .footer-inner .quick {
+  margin-bottom: 50px;
+}
+.footer .footer-inner .quick p {
+  margin-bottom: 20px;
+}
+.footer .footer-inner .quick .thelinks {
+  display: flex;
+  justify-content: space-between;
+}
+.footer .footer-inner .devandreach {
+  display: flex;
+  justify-content: space-between;
+}
 .footer .footer-inner .footerheading {
   font-family: "Roboto Slab", serif;
   font-size: 30px;
@@ -274,4 +288,13 @@ video {
 .footer .footer-inner .footertopics {
   font-family: "Roboto Slab", serif;
   font-size: 20px;
+}
+.footer .footer-inner a {
+  text-decoration: none;
+  color: inherit;
+  background-color: #fe0036;
+  padding: 12px 30px;
+  display: inline-block;
+  border-top-left-radius: 15px;
+  border-bottom-right-radius: 15px;
 }
