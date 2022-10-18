@@ -3,13 +3,19 @@ import bar from "../img/bar.jpg";
 import meeting from "../img/meeting.jpg";
 import accomodation from "../img/accomodation.jpg";
 
+import AOS from "aos";
+import "aos/dist/aos.css";
+import { useEffect } from "react";
 
 function All4u() {
+  useEffect(() => {
+    AOS.init();
+  }, []);
   return (
     <div className="all4u">
-      <p className="all4uheading">All for you</p>
+      <p className="all4uheading" data-aos="fade-up">All for you</p>
       <div className="offers">
-        <div className="accomodation">
+        <div className="accomodation" data-aos="fade-up">
           <img src={accomodation} alt="" />
           <p className="title">ACCOMODATION</p>
           <p className="about">
@@ -20,7 +26,7 @@ function All4u() {
           </p>
           <a href=" ">Read More</a>
         </div>
-        <div className="bars">
+        <div className="bars" data-aos="fade-up">
           <img src={bar} alt="" />
           <p className="title">RESTAURANT AND BAR</p>
           <p className="about">
@@ -31,7 +37,7 @@ function All4u() {
           </p>
           <a href=" ">Read More</a>
         </div>
-        <div className="weddings">
+        <div className="weddings" data-aos="fade-up">
           <img src={wedding} alt="" />
           <p className="title">WEDDINGS</p>
           <p className="about">
@@ -42,7 +48,7 @@ function All4u() {
           </p>
           <a href=" ">Read More</a>
         </div>
-        <div className="meeting">
+        <div className="meeting" data-aos="fade-up">
           <img src={meeting} alt="" />
           <p className="title">MEETINGS</p>
           <p className="about">
