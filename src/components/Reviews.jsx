@@ -30,6 +30,7 @@ function Reviews() {
         </div>
       </div>
       <div className="flex-1">
+        <div >
         <p>
           Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellendus
           obcaecati minima debitis placeat amet. Adipisci sit velit aliquam
@@ -39,6 +40,7 @@ function Reviews() {
         <div className="profile">
           <p className="name">Abrusu Collins</p>
           <img src={farhan} alt="farhan" />
+        </div>
         </div>
       </div>
     </div>

@@ -233,12 +233,15 @@ video {
   width: 70%;
   margin: 50px auto 0 auto;
   background-color: #080808;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 30px;
+  padding: 50px;
   border-top-left-radius: 35px;
   border-bottom-right-radius: 35px;
+}
+.reviews .flex-1 > div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
 }
 
 .footer {
