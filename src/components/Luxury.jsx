@@ -10,13 +10,21 @@ import _7 from "../img/7.jpg";
 import _8 from "../img/8.jpg";
 import _9 from "../img/9.jpg";
 import _10 from "../img/10.jpg";
-import _11 from "../img/11.jpg";
+
+import AOS from "aos";
+import "aos/dist/aos.css";
+import { useEffect } from "react";
 
 function Luxury() {
+  useEffect(() => {
+    AOS.init();
+  }, []);
   return (
     <div className="luxury">
-      <p className="luxuryheading">At Hotelvivi, Luxury is our Love Language</p>
-      <div className="carousel">
+      <p className="luxuryheading" data-aos="fade-up">
+        At Hotelvivi, Luxury is our Love Language
+      </p>
+      <div className="carousel" data-aos="fade-up">
         <Carousel>
           <div>
             <img src={_1} alt="pic" />

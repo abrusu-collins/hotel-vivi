@@ -6,6 +6,8 @@ import All4u from "./components/All4u";
 import Place from "./components/Place";
 import Reviews from "./components/Reviews";
 import Footer from "./components/Footer";
+
+
 function App() {
   return (
     <>
