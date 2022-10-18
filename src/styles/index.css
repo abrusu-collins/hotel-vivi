@@ -236,6 +236,9 @@ video {
   padding: 50px;
   border-top-left-radius: 35px;
   border-bottom-right-radius: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .reviews .flex-1 > div {
   display: flex;
