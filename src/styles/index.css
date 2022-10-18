@@ -262,8 +262,16 @@ video {
   background-color: #080808;
   color: white;
 }
-.footer .footerheading {
+.footer .footer-inner {
+  margin: auto;
+  width: 70%;
+}
+.footer .footer-inner .footerheading {
   font-family: "Roboto Slab", serif;
   font-size: 30px;
   padding: 50px 0;
+}
+.footer .footer-inner .footertopics {
+  font-family: "Roboto Slab", serif;
+  font-size: 20px;
 }

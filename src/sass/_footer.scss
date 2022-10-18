@@ -2,9 +2,19 @@
   padding-bottom: 50px;
   background-color: $dark_background;
   color: white;
-  & .footerheading {
-    font-family: "Roboto Slab", serif;
-    font-size: 30px;
-    padding: 50px 0;
-  }
+ & .footer-inner{
+    margin: auto;
+    width:70%;
+    & .footerheading {
+        font-family: "Roboto Slab", serif;
+        font-size: 30px;
+        padding: 50px 0;
+      }
+
+      & .footertopics {
+        font-family: "Roboto Slab", serif;
+        font-size: 20px;
+      }
+ }
+  
 }

@@ -1,9 +1,10 @@
 function Footer() {
   return (
     <div className="footer">
-      <p className="footerheading">Thanks for visiting Hotelvivi🤝</p>
+     <div className="footer-inner">
+     <p className="footerheading">Thanks for visiting Hotelvivi🤝</p>
       <div className="quick">
-        <p>Quick Links</p>
+        <p className="footertopics"> Quick Links</p>
         <div className="thelinks">
           <a href=" ">Home</a>
           <a href=" ">Accomodations</a>
@@ -23,6 +24,7 @@ function Footer() {
           <p>info@hotelvivi.com</p>
         </div>
       </div>
+     </div>
     </div>
   );
 }
