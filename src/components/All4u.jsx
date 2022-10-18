@@ -3,6 +3,7 @@ import bar from "../img/bar.jpg";
 import meeting from "../img/meeting.jpg";
 import accomodation from "../img/accomodation.jpg";
 
+
 function All4u() {
   return (
     <div className="all4u">

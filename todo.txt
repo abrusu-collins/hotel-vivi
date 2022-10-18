@@ -1,4 +1,2 @@
-change bar png
 footer background
-do footer
 responsive
