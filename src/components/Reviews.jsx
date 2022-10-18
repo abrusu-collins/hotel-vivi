@@ -15,7 +15,7 @@ function Reviews() {
             velit aliquam accusamus vero reprehenderit excepturi enim optio ad
             ex, rem in provident quas.
           </p>
-          <p className="name">Abrusu Collins</p>
+          <p className="name">Fredrica Arthur</p>
           <img src={fredrica} alt="fredrica" />
         </div>
         <div>
@@ -25,7 +25,7 @@ function Reviews() {
             velit aliquam accusamus vero reprehenderit excepturi enim optio ad
             ex, rem in provident quas.
           </p>
-          <p className="name">Abrusu Collins</p>
+          <p className="name">Mark Owusu</p>
           <img src={mark} alt="mark" />
         </div>
       </div>
@@ -38,7 +38,7 @@ function Reviews() {
           provident quas.
         </p>
         <div className="profile">
-          <p className="name">Abrusu Collins</p>
+          <p className="name">Farhan Yahaya</p>
           <img src={farhan} alt="farhan" />
         </div>
       </div>
