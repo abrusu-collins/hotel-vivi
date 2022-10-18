@@ -1,10 +1,8 @@
 function  Navbar() {
     return ( 
+<></>
 
-        
      );
 }
 
-export default  Navb
-
-ar;
+export default  Navbar;
