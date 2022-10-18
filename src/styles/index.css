@@ -15,6 +15,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: wtlight;
 }
 
 .top-left {
@@ -257,7 +258,12 @@ video {
 }
 
 .footer {
-  height: 100vh;
+  padding-bottom: 50px;
   background-color: #080808;
   color: white;
+}
+.footer .footerheading {
+  font-family: "Roboto Slab", serif;
+  font-size: 30px;
+  padding: 50px 0;
 }
