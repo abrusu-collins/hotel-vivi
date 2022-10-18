@@ -79,7 +79,8 @@ video {
 .luxury {
   color: white;
   padding-bottom: 50px;
-  background: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75));
+  background-color: black;
+  border-bottom: 2px dashed white;
 }
 .luxury .luxuryheading {
   font-size: 60px;
