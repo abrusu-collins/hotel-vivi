@@ -36,4 +36,9 @@
     width: 70px;
     border-radius: 50%;
   }
+  & .flex-1{
+    width: 70%;
+    margin: 50px auto 0 auto;
+    background-color: $dark_background;
+  }
 }
