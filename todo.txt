@@ -1,3 +1,2 @@
-navbar
 fill in
 responsive
