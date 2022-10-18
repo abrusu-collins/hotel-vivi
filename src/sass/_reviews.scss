@@ -8,14 +8,32 @@
     font-family: "Roboto Slab", serif;
     text-align: center;
   }
-  & >div{
-    background-color: $dark_background;
+  & > div {
+    font-family: wtlight;
+    & .name {
+      text-transform: uppercase;
+      font-family: "Roboto Slab", serif;
+      margin: 20px 0;
+    }
   }
-  & .flex-2{}
-  & img{
+  & .flex-2 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 5rem;
+    width: 70%;
+    margin: auto;
+
+    & div {
+      background-color: $dark_background;
+      text-align: center;
+      padding: 30px;
+      border-top-left-radius: 35px;
+      border-bottom-right-radius: 35px;
+    }
+  }
+  & img {
     height: 70px;
     width: 70px;
     border-radius: 50%;
-
   }
 }

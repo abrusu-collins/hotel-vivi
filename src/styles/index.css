@@ -202,7 +202,26 @@ video {
   text-align: center;
 }
 .reviews > div {
+  font-family: wtlight;
+}
+.reviews > div .name {
+  text-transform: uppercase;
+  font-family: "Roboto Slab", serif;
+  margin: 20px 0;
+}
+.reviews .flex-2 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 5rem;
+  width: 70%;
+  margin: auto;
+}
+.reviews .flex-2 div {
   background-color: #080808;
+  text-align: center;
+  padding: 30px;
+  border-top-left-radius: 35px;
+  border-bottom-right-radius: 35px;
 }
 .reviews img {
   height: 70px;
