@@ -1,5 +1,4 @@
 .reviews {
-  height: 100vh;
   background-color: black;
   border-bottom: 2px dashed white;
   color: white;
@@ -8,5 +7,15 @@
     padding: 50px;
     font-family: "Roboto Slab", serif;
     text-align: center;
+  }
+  & >div{
+    background-color: $dark_background;
+  }
+  & .flex-2{}
+  & img{
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+
   }
 }

@@ -1,3 +1,8 @@
+import fredrica from "../img/fredrica.jfif";
+import mark from "../img/mark.jfif";
+import farhan from "../img/farhan.jfif";
+
+
 function Reviews() {
   return (
     <div className="reviews">
@@ -11,7 +16,7 @@ function Reviews() {
             ex, rem in provident quas.
           </p>
           <p className="name">Abrusu Collins</p>
-          <img src="" alt="" />
+          <img src={fredrica} alt="fredrica" />
         </div>
         <div>
           <p>
@@ -21,7 +26,7 @@ function Reviews() {
             ex, rem in provident quas.
           </p>
           <p className="name">Abrusu Collins</p>
-          <img src="" alt="" />
+          <img src={mark} alt="mark" />
         </div>
       </div>
       <div className="flex-1">
@@ -33,7 +38,7 @@ function Reviews() {
         </p>
         <div className="profile">
           <p className="name">Abrusu Collins</p>
-          <img src="" alt="" />
+          <img src={farhan} alt="farhan" />
         </div>
       </div>
     </div>

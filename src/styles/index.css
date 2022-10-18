@@ -191,7 +191,6 @@ video {
 }
 
 .reviews {
-  height: 100vh;
   background-color: black;
   border-bottom: 2px dashed white;
   color: white;
@@ -201,6 +200,14 @@ video {
   padding: 50px;
   font-family: "Roboto Slab", serif;
   text-align: center;
+}
+.reviews > div {
+  background-color: #080808;
+}
+.reviews img {
+  height: 70px;
+  width: 70px;
+  border-radius: 50%;
 }
 
 .footer {
