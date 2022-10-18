@@ -1,5 +1,12 @@
-.reviews{
-    height: 100vh;
-    background-color: black;
-    border-bottom: 2px dashed white;
+.reviews {
+  height: 100vh;
+  background-color: black;
+  border-bottom: 2px dashed white;
+  color: white;
+  & .reviewsheading {
+    font-size: 60px;
+    padding: 50px;
+    font-family: "Roboto Slab", serif;
+    text-align: center;
+  }
 }
