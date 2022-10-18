@@ -17,7 +17,7 @@ function Footer() {
         <div className="devandreach">
           <div>
             <p className="footertopics">Developed By:</p>
-            <p>DevTech Software Company</p>
+            <a href=" ">DevTech Software Company</a>
           </div>
           <div>
             <p className="footertopics">Contact Us:</p>

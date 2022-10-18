@@ -279,6 +279,10 @@ video {
 .footer .footer-inner .devandreach {
   display: flex;
   justify-content: space-between;
+  align-items: center;
+}
+.footer .footer-inner .devandreach .footertopics {
+  margin-bottom: 10px;
 }
 .footer .footer-inner .footerheading {
   font-family: "Roboto Slab", serif;

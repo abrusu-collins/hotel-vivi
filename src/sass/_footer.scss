@@ -18,6 +18,10 @@
     & .devandreach{
        display: flex;
        justify-content: space-between;
+       align-items: center;
+       & .footertopics{
+        margin-bottom: 10px;
+       }
     }
     & .footerheading {
         font-family: "Roboto Slab", serif;
