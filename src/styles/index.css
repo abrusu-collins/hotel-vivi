@@ -190,6 +190,12 @@ video {
   margin-bottom: 20px;
 }
 
+.reviews {
+  height: 100vh;
+  background-color: black;
+  border-bottom: 2px dashed white;
+}
+
 .footer {
   height: 100vh;
   background-color: #080808;
