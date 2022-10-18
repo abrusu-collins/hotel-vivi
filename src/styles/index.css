@@ -194,6 +194,7 @@ video {
   background-color: black;
   border-bottom: 2px dashed white;
   color: white;
+  padding-bottom: 50px;
 }
 .reviews .reviewsheading {
   font-size: 60px;
@@ -232,6 +233,12 @@ video {
   width: 70%;
   margin: 50px auto 0 auto;
   background-color: #080808;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 30px;
+  border-top-left-radius: 35px;
+  border-bottom-right-radius: 35px;
 }
 
 .footer {
