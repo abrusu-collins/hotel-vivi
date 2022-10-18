@@ -1,5 +1,4 @@
 change bar png
-customer reviews
 footer background
 do footer
 responsive

@@ -25,6 +25,16 @@
   border-bottom-right-radius: 35px;
 }
 
+::-moz-selection {
+  color: black;
+  background: white;
+}
+
+::selection {
+  color: black;
+  background: white;
+}
+
 .hero {
   position: relative;
   height: 100vh;
@@ -209,6 +219,7 @@ video {
   text-transform: uppercase;
   font-family: "Roboto Slab", serif;
   margin: 20px 0;
+  font-size: 20px;
 }
 .reviews .flex-2 {
   display: grid;
