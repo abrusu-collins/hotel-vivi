@@ -11,11 +11,11 @@ function Offers() {
     <>
       <OfferNav />;
       <Romantic />
-      <FamilyAndKids/>
-      <SuitelySensational/>
-      <Wellness/>
-      <Christmas/>
-      <EarlyBookers/>
+      <Christmas />
+      <FamilyAndKids />
+      <SuitelySensational />
+      <Wellness />
+      <EarlyBookers />
     </>
   );
 }
