@@ -7,19 +7,19 @@ function Navbar() {
       <p>HotelVivi</p>
       <ul>
         <li>
-          <a href="#home">Home</a>
+          <a href="/">Home</a>
         </li>
         <li>
-          <a href="#tvinw">Rooms & Suites</a>
+          <a href="/rooms&suites">Rooms & Suites</a>
         </li>
         <li>
-          <a href="#fans">Photos & Videos</a>
+          <a href="/photos&videos">Photos & Videos</a>
         </li>
         <li>
-          <a href="#pics">Offers</a>
+          <a href="/offers">Offers</a>
         </li>
         <li>
-          <a href="#pics">SPA</a>
+          <a href="/spa">SPA</a>
         </li>
       </ul>
       <div
