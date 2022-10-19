@@ -354,6 +354,8 @@ video {
   color: white;
   background-color: black;
   border-top: 2px dashed white;
+  border-bottom: 2px dashed white;
+  padding-bottom: 50px;
 }
 .offernav .offerpagehead {
   padding: 50px 0;
