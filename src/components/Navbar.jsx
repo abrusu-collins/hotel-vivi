@@ -28,7 +28,6 @@ function Navbar() {
           e.currentTarget.parentElement.children[1].classList.toggle(
             "navremoval"
           );
-          e.currentTarget.parentElement.classList.toggle("space");
         }}
       >
         <FontAwesomeIcon icon={faBars} />

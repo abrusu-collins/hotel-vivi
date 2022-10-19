@@ -42,12 +42,11 @@ a:hover {
 
 .navbar {
   background-color: black;
-  height: 10vh;
+  padding: 30px 0;
   color: white;
   display: flex;
   justify-content: space-around;
   align-items: center;
-  font-size: 14px;
 }
 .navbar p {
   font-family: "Roboto Slab", serif;
@@ -365,8 +364,4 @@ video {
 .navremoval {
   display: block !important;
   text-align: center;
-}
-
-.space {
-  height: 35vh !important;
 }
