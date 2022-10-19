@@ -1,7 +1,7 @@
-function Rooms_Suites() {
+function RoomsSuites() {
     return (
         <div className="rooms_suites"></div>
       );
 }
 
-export default Rooms_Suites;
+export default RoomsSuites;
