@@ -424,7 +424,7 @@ video {
   margin: auto;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  width: 70%;
+  width: 80%;
 }
 .romantic .romantic-inner img {
   width: 70%;
