@@ -1,9 +1,9 @@
-import Hero from "./components/Home components/Hero";
-import Luxury from "./components/Home components/Luxury";
-import All4u from "./components/Home components/All4u";
-import Place from "./components/Home components/Place";
-import Reviews from "./components/Home components/Reviews";
-import Footer from "./components/Home components/Footer";
+import Hero from "./Home components/Hero";
+import Luxury from "./Home components/Luxury";
+import All4u from "./Home components/All4u";
+import Place from "./Home components/Place";
+import Reviews from "./Home components/Reviews";
+import Footer from "./Home components/Footer";
 
 function Home() {
   return (

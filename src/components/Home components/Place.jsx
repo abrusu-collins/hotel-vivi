@@ -1,7 +1,7 @@
-import afford from "../img/affordable.jpg";
-import security from "../img/security.jpg";
-import comfort from "../img/comfort.jpg";
-import serene from "../img/serene.jpg";
+import afford from "../../img/affordable.jpg";
+import security from "../../img/security.jpg";
+import comfort from "../../img/comfort.jpg";
+import serene from "../../img/serene.jpg";
 
 function Place() {
   return (
