@@ -5,7 +5,7 @@ function EarlyBookers() {
         <div className="romantic-inner">
         <img src={earlymain} alt="" />
           <div className="right">
-            <p className="romance-main-head">EARLY BOOKERS</p>
+            <p className="romance-main-head">EARLY BIRDS</p>
             <p className="about-offer">
               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus
               quia illo est dignissimos ipsum corrupti iste eveniet esse similique
