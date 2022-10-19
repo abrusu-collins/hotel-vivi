@@ -3,8 +3,8 @@ import "./styles/index.css";
 
 import Navbar from "./components/Navbar";
 import Home from "./components/Home";
-import RoomsSuites from "./components/Rooms & Suites";
-import PhotosVideos from "./components/Photos & Videos";
+import RoomsSuites from "./components/RoomsSuites";
+import PhotosVideos from "./components/PhotosVideos";
 import Offers from "./components/Offers";
 import SPA from "./components/SPA";
 import Footer from "./components/Footer";
