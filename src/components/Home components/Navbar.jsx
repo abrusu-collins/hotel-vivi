@@ -10,7 +10,7 @@ function Navbar() {
           <a href="#home">Home</a>
         </li>
         <li>
-          <a href="#tvinw">Accomodation</a>
+          <a href="#tvinw">Rooms & Suites</a>
         </li>
         <li>
           <a href="#fans">Photos & Videos</a>
@@ -19,7 +19,7 @@ function Navbar() {
           <a href="#pics">Offers</a>
         </li>
         <li>
-          <a href="#pics">Facilities & Amenities</a>
+          <a href="#pics">SPA</a>
         </li>
       </ul>
       <div
