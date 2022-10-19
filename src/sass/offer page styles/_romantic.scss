@@ -1,0 +1,40 @@
+.romantic {
+  background-color: black;
+  color: white;
+  padding: 50px 0;
+  border-top: 2px dashed white;
+  border-bottom: 2px dashed white;
+  & .romantic-inner {
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 70%;
+    & img {
+      width: 70%;
+      border-top-left-radius: 25px;
+      border-bottom-right-radius: 25px;
+    }
+    & div {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      & .romance-main-head {
+        font-size: 60px;
+        font-family: "Roboto Slab", serif;
+      }
+      & .about-offer {
+        margin: 30px 0;
+      }
+      & a {
+        text-decoration: none;
+        color: inherit;
+        background-color: $button_background;
+        padding: 12px 30px;
+        display: inline-block;
+        border-top-left-radius: 15px;
+        border-bottom-right-radius: 15px;
+      }
+    }
+  }
+}
