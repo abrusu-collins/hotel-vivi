@@ -11,32 +11,50 @@
   & .offers {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-gap:5rem;
+    grid-gap: 5rem;
     width: 70%;
     margin: auto;
     & .offer1 {
-      background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+      background-image: linear-gradient(
+          rgba(0, 0, 0, 0.55),
+          rgba(0, 0, 0, 0.55)
+        ),
         url("../img/romance.jpg");
     }
     & .offer2 {
-      background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
-        url("../img/romance.jpg");
+      background-image: linear-gradient(
+          rgba(0, 0, 0, 0.55),
+          rgba(0, 0, 0, 0.55)
+        ),
+        url("../img/wellness.jpg");
     }
     & .offer3 {
-      background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
-        url("../img/romance.jpg");
+      background-image: linear-gradient(
+          rgba(0, 0, 0, 0.55),
+          rgba(0, 0, 0, 0.55)
+        ),
+        url("../img/family.jpg");
     }
     & .offer4 {
-      background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
-        url("../img/romance.jpg");
+      background-image: linear-gradient(
+          rgba(0, 0, 0, 0.55),
+          rgba(0, 0, 0, 0.55)
+        ),
+        url("../img/early.jpg");
     }
     & .offer5 {
-      background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
-        url("../img/romance.jpg");
+      background-image: linear-gradient(
+          rgba(0, 0, 0, 0.55),
+          rgba(0, 0, 0, 0.55)
+        ),
+        url("../img/suite.jpg");
     }
     & .offer6 {
-      background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
-        url("../img/romance.jpg");
+      background-image: linear-gradient(
+          rgba(0, 0, 0, 0.55),
+          rgba(0, 0, 0, 0.55)
+        ),
+        url("../img/christmas.jpg");
     }
     & a {
       text-decoration: none;
@@ -47,16 +65,20 @@
       border-top-left-radius: 15px;
       border-bottom-right-radius: 15px;
     }
-    & div{
-        height: 40vh;
-        background-size: contain;
-        background-repeat: no-repeat;
-        background-position: center;
-        
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        flex-direction: column;
+    & div {
+      height: 40vh;
+      background-size: contain;
+      background-repeat: no-repeat;
+      background-position: center;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      border-top-left-radius: 35px;
+      border-bottom-right-radius: 35px;
+      & p {
+        margin-bottom: 20px;
       }
+    }
   }
 }
