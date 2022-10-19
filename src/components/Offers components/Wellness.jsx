@@ -1,11 +1,11 @@
-
+import wellnessmain from "../../img/spa-main.jpg";
 function Wellness() {
     return ( 
         <div className="romantic">
         <div className="romantic-inner">
-        <img src={romancemain} alt="" />
+        <img src={wellnessmain} alt="" />
           <div className="right">
-            <p className="romance-main-head">ROMANTIC OFFERS</p>
+            <p className="romance-main-head">WELLNESS AND SPA</p>
             <p className="about-offer">
               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus
               quia illo est dignissimos ipsum corrupti iste eveniet esse similique

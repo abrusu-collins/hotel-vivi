@@ -1,7 +1,9 @@
+import christmasmain from "../../img/christmas-main.jpg";
+
 function Christmas() {
   <div className="romantic">
   <div className="romantic-inner">
-  <img src={romancemain} alt="" />
+  <img src={christmasmain} alt="" />
     <div className="right">
       <p className="romance-main-head">ROMANTIC OFFERS</p>
       <p className="about-offer">
