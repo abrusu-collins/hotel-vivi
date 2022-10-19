@@ -1,6 +1,30 @@
-.offernav{
-    color:white;
-    background-color: black;
-    border-top: 2px dashed white;
-
+.offernav {
+  color: white;
+  background-color: black;
+  border-top: 2px dashed white;
+  & .offers {
+    & .offer1 {
+        background-image: url("../img/romance.jpg");
+    }
+    & .offer2 {
+        background-image: url("../img/romance.jpg");
+    }  & .offer3 {
+        background-image: url("../img/romance.jpg");
+    }  & .offer4 {
+        background-image: url("../img/romance.jpg");
+    }  & .offer5 {
+        background-image: url("../img/romance.jpg");
+    }  & .offer6 {
+        background-image: url("../img/romance.jpg");
+    }
+    & a{
+        text-decoration: none;
+        color: inherit;
+        background-color: $button_background;
+        padding: 12px 30px;
+        display: inline-block;
+        border-top-left-radius: 15px;
+        border-bottom-right-radius: 15px;
+    }
+  }
 }
