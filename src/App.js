@@ -1,23 +1,13 @@
 import "./styles/index.css";
 
-import Navbar from "./components/Navbar";
-import Hero from "./components/Hero";
-import Luxury from "./components/Luxury";
-import All4u from "./components/All4u";
-import Place from "./components/Place";
-import Reviews from "./components/Reviews";
-import Footer from "./components/Footer";
-
+import Navbar from "./components/Home components/Navbar";
+import Home from "./components/Home";
 function App() {
   return (
     <>
       <Navbar />
-      <Hero />
-      <Luxury />
-      <All4u />
-      <Place />
-      <Reviews />
-      <Footer />
+      <Home/>
+    
     </>
   );
 }
