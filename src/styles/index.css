@@ -350,6 +350,12 @@ video {
   border-bottom-right-radius: 15px;
 }
 
+.offernav {
+  color: white;
+  background-color: black;
+  border-top: 2px dashed white;
+}
+
 @media screen and (max-width: 788px) {
   .navbar .bar {
     display: block;
