@@ -1,6 +1,6 @@
 function OfferNav() {
   return <div className="offernav">
-        <p className="offerpagehead">OFFER</p>
+        <p className="offerpagehead">OFFERS</p>
         <div className="offers">
           <div className="offer1">
             <p className="offertitle">

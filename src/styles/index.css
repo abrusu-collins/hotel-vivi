@@ -355,23 +355,29 @@ video {
   background-color: black;
   border-top: 2px dashed white;
 }
+.offernav .offerpagehead {
+  padding: 50px 0;
+  text-align: center;
+  font-size: 60px;
+  font-family: "Roboto Slab", serif;
+}
 .offernav .offers .offer1 {
-  background-image: url("../img/romance.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../img/romance.jpg");
 }
 .offernav .offers .offer2 {
-  background-image: url("../img/romance.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../img/romance.jpg");
 }
 .offernav .offers .offer3 {
-  background-image: url("../img/romance.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../img/romance.jpg");
 }
 .offernav .offers .offer4 {
-  background-image: url("../img/romance.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../img/romance.jpg");
 }
 .offernav .offers .offer5 {
-  background-image: url("../img/romance.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../img/romance.jpg");
 }
 .offernav .offers .offer6 {
-  background-image: url("../img/romance.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../img/romance.jpg");
 }
 .offernav .offers a {
   text-decoration: none;
