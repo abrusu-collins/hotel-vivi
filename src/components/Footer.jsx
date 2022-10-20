@@ -7,10 +7,10 @@ function Footer() {
           <p className="footertopics"> Quick Links</p>
           <div className="thelinks">
             <a href=" ">Home</a>
-            <a href=" ">Accomodations</a>
-            <a href=" ">Photos & Videos</a>
+            <a href=" ">Rooms & Suites</a>
+            <a href=" ">Gallery</a>
             <a href=" ">Offers</a>
-            <a href=" ">Facilities & Amenities</a>
+            <a href=" ">SPA</a>
             <a href=" ">Reviews</a>
           </div>
         </div>

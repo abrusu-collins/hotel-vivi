@@ -13,7 +13,7 @@ function Navbar() {
           <a href="/rooms&suites">Rooms & Suites</a>
         </li>
         <li>
-          <a href="/photos&videos">Photos & Videos</a>
+          <a href="/photos&videos">Gallery</a>
         </li>
         <li>
           <a href="/offers">Offers</a>
