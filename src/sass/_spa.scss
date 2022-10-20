@@ -11,6 +11,20 @@
         margin-left: 100px;
         & .spa-hero-head{
             font-size: 60px;
+            // font-family: "Roboto Slab", serif;
+
+        }
+        & .spa-hero-about{
+            margin: 40px 0;
+        }
+        & a{
+            text-decoration: none;
+            color: inherit;
+            background-color: $button_background;
+            padding: 12px 30px;
+            display: inline-block;
+            border-top-left-radius: 15px;
+            border-bottom-right-radius: 15px;
         }
     }
     }

@@ -471,6 +471,18 @@ video {
 .spa .spa-hero div .spa-hero-head {
   font-size: 60px;
 }
+.spa .spa-hero div .spa-hero-about {
+  margin: 40px 0;
+}
+.spa .spa-hero div a {
+  text-decoration: none;
+  color: inherit;
+  background-color: #fe0036;
+  padding: 12px 30px;
+  display: inline-block;
+  border-top-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
 
 @media screen and (max-width: 788px) {
   .navbar .bar {
