@@ -515,11 +515,19 @@ video {
 }
 .spa .spa-services .all-spa-services {
   display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 3rem;
+  width: 70%;
+  margin: auto;
 }
 .spa .spa-services .all-spa-services .service {
   background-color: #080808;
+  padding: 30px;
+  text-align: center;
 }
-
+.spa .spa-services .all-spa-services .service .each-service-head {
+  font-size: 30px;
+}
 @media screen and (max-width: 788px) {
   .navbar .bar {
     display: block;

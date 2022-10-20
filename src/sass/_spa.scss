@@ -64,8 +64,20 @@
     padding-bottom: 50px;
     & .all-spa-services{
         display: grid;
+        grid-template-columns: repeat(2,1fr);
+        grid-gap:3rem;
+        width:70%;
+        margin: auto;
         & .service{
             background-color: $dark_background;
+            padding: 30px;
+            text-align: center;
+            & .each-service-head{
+                font-size: 30px;
+            }
+            & .each-service-details{
+                
+            }
         }
     }
   }
