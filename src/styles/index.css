@@ -484,8 +484,26 @@ video {
   border-bottom-right-radius: 15px;
 }
 .spa .time-off {
-  width: 70%;
+  width: 60%;
   margin: auto;
+  text-align: center;
+  padding-bottom: 50px;
+}
+.spa .time-off .time-off-head {
+  font-size: 60px;
+  padding: 50px;
+}
+.spa .time-off .time-off-about {
+  margin-bottom: 50px;
+}
+.spa .time-off a {
+  text-decoration: none;
+  color: inherit;
+  background-color: #fe0036;
+  padding: 12px 30px;
+  display: inline-block;
+  border-top-left-radius: 15px;
+  border-bottom-right-radius: 15px;
 }
 
 @media screen and (max-width: 788px) {

@@ -16,7 +16,7 @@ function SPA() {
 
       <div className="time-off">
         <p className="time-off-head">
-          Take some time off, Relax and have a Good Time.
+          Take some time off, relax and have a good time.
         </p>
         <p className="time-off-about">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora quis

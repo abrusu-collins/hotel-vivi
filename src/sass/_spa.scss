@@ -1,36 +1,57 @@
-.spa{
-    background-color: black;
-    color: white;
-    & .spa-hero{
-        height:90vh;
-        background-image:linear-gradient( to right ,rgba(0,0,0,.99)20%,rgba(0,0,0,0.3)), url("../img/s.png");
-        display: flex;
-        align-items: center;
-        & div{
-        width:30%;
-        margin-left: 100px;
-        & .spa-hero-head{
-            font-size: 60px;
-            // font-family: "Roboto Slab", serif;
+.spa {
+  background-color: black;
+  color: white;
+  & .spa-hero {
+    height: 90vh;
+    background-image: linear-gradient(
+        to right,
+        rgba(0, 0, 0, 0.99) 20%,
+        rgba(0, 0, 0, 0.3)
+      ),
+      url("../img/s.png");
+    display: flex;
+    align-items: center;
+    & div {
+      width: 30%;
+      margin-left: 100px;
+      & .spa-hero-head {
+        font-size: 60px;
+        // font-family: "Roboto Slab", serif;
+      }
+      & .spa-hero-about {
+        margin: 40px 0;
+      }
+      & a {
+        text-decoration: none;
+        color: inherit;
+        background-color: $button_background;
+        padding: 12px 30px;
+        display: inline-block;
+        border-top-left-radius: 15px;
+        border-bottom-right-radius: 15px;
+      }
+    }
+  }
 
-        }
-        & .spa-hero-about{
-            margin: 40px 0;
-        }
-        & a{
-            text-decoration: none;
-            color: inherit;
-            background-color: $button_background;
-            padding: 12px 30px;
-            display: inline-block;
-            border-top-left-radius: 15px;
-            border-bottom-right-radius: 15px;
-        }
+  & .time-off {
+    width: 60%;
+    margin: auto;
+    text-align: center;
+    padding-bottom: 50px;
+    & .time-off-head {
+      font-size: 60px;
+      padding: 50px;
+    } & .time-off-about{
+        margin-bottom: 50px;
     }
+    & a {
+      text-decoration: none;
+      color: inherit;
+      background-color: $button_background;
+      padding: 12px 30px;
+      display: inline-block;
+      border-top-left-radius: 15px;
+      border-bottom-right-radius: 15px;
     }
-
-    & .time-off{
-        width: 70%;
-        margin: auto;
-    }
+  }
 }
