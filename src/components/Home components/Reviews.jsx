@@ -12,7 +12,7 @@ function Reviews() {
         AOS.init();
       }, []);
   return (
-    <div className="reviews">
+    <div className="reviews" id="reviews">
       <p className="reviewsheading" data-aos="fade-up">Guest Reviews</p>
       <div className="flex-2">
         <div data-aos="fade-up">
