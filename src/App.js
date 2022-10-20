@@ -4,7 +4,7 @@ import "./styles/index.css";
 import Navbar from "./components/Navbar";
 import Home from "./components/Home";
 import RoomsSuites from "./components/RoomsSuites";
-import PhotosVideos from "./components/PhotosVideos";
+import Gallery from "./components/Gallery";
 import Offers from "./components/Offers";
 import SPA from "./components/SPA";
 import Footer from "./components/Footer";
@@ -24,7 +24,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/rooms&suites" element={<RoomsSuites />} />
-        <Route path="/photos&videos" element={<PhotosVideos />} />
+        <Route path="/gallery" element={<Gallery />} />
         <Route path="/offers" element={<Offers />} />
         <Route path="/spa" element={<SPA />} />
         <Route path="*" element={<Error404 />} />
