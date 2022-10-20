@@ -72,6 +72,8 @@
             background-color: $dark_background;
             padding: 30px;
             text-align: center;
+            border-top-left-radius: 25px;
+            border-bottom-right-radius: 25px;
             & .each-service-head{
                 font-size: 30px;
             }
