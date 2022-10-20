@@ -470,6 +470,7 @@ video {
 }
 .spa .spa-hero div .spa-hero-head {
   font-size: 60px;
+  font-family: "Roboto Slab", serif;
 }
 .spa .spa-hero div .spa-hero-about {
   margin: 40px 0;
@@ -490,6 +491,7 @@ video {
   padding-bottom: 50px;
 }
 .spa .time-off .time-off-head {
+  font-family: "Roboto Slab", serif;
   font-size: 60px;
   padding: 50px;
 }
@@ -509,6 +511,7 @@ video {
   padding-bottom: 50px;
 }
 .spa .spa-services .spa-services-head {
+  font-family: "Roboto Slab", serif;
   text-align: center;
   padding: 50px 0;
   font-size: 60px;
@@ -528,7 +531,8 @@ video {
   border-bottom-right-radius: 25px;
 }
 .spa .spa-services .all-spa-services .service .each-service-head {
-  font-size: 30px;
+  font-size: 20px;
+  font-family: "Roboto Slab", serif;
 }
 .spa .spa-services .all-spa-services .service .each-service-details {
   margin-top: 15px;

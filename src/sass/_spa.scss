@@ -16,7 +16,7 @@
       margin-left: 100px;
       & .spa-hero-head {
         font-size: 60px;
-        // font-family: "Roboto Slab", serif;
+        font-family: "Roboto Slab", serif;
       }
       & .spa-hero-about {
         margin: 40px 0;
@@ -39,6 +39,7 @@
     text-align: center;
     padding-bottom: 50px;
     & .time-off-head {
+      font-family: "Roboto Slab", serif;
       font-size: 60px;
       padding: 50px;
     }
@@ -57,34 +58,36 @@
   }
   & .spa-services {
     & .spa-services-head {
-        text-align: center;
+      font-family: "Roboto Slab", serif;
+      text-align: center;
       padding: 50px 0;
       font-size: 60px;
     }
     padding-bottom: 50px;
-    & .all-spa-services{
-        display: grid;
-        grid-template-columns: repeat(2,1fr);
-        grid-gap:3rem;
-        width:70%;
-        margin: auto;
-        & .service{
-            background-color: $dark_background;
-            padding: 30px;
-            text-align: center;
-            border-top-left-radius: 25px;
-            border-bottom-right-radius: 25px;
-            & .each-service-head{
-                font-size: 30px;
-            }
-            & .each-service-details{
-                margin-top: 15px;
-                text-align: left;
-                & p:nth-child(2){
-                    margin: 10px 0;
-                }
-            }
+    & .all-spa-services {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      grid-gap: 3rem;
+      width: 70%;
+      margin: auto;
+      & .service {
+        background-color: $dark_background;
+        padding: 30px;
+        text-align: center;
+        border-top-left-radius: 25px;
+        border-bottom-right-radius: 25px;
+        & .each-service-head {
+          font-size: 20px;
+          font-family: "Roboto Slab", serif;
         }
+        & .each-service-details {
+          margin-top: 15px;
+          text-align: left;
+          & p:nth-child(2) {
+            margin: 10px 0;
+          }
+        }
+      }
     }
   }
 }
