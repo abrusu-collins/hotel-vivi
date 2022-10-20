@@ -1,4 +1,12 @@
+import AOS from "aos";
+import "aos/dist/aos.css";
+import { useEffect } from "react";
+
 function SPA() {
+  useEffect(() => {
+    AOS.init();
+  }, []);
+
   return (
     <div className="spa">
       <div className="spa-hero">
@@ -15,10 +23,10 @@ function SPA() {
       </div>
 
       <div className="time-off">
-        <p className="time-off-head">
+        <p className="time-off-head" data-aos="fade-up">
           Take some time off, relax and have a good time.
         </p>
-        <p className="time-off-about">
+        <p className="time-off-about" data-aos="fade-up">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora quis
           quibusdam eaque sint soluta nobis dicta officia, ea illum ipsum cum
           aperiam fugit at laboriosam eveniet voluptates sed assumenda possimus.
@@ -30,13 +38,17 @@ function SPA() {
           labore illo alias eius officia tenetur laborum eligendi asperiores
           sunt ipsam quod dicta inventore?
         </p>
-        <a href=" ">Learn More</a>
+        <a href=" " data-aos="fade-up">
+          Learn More
+        </a>
       </div>
 
       <div className="spa-services">
-        <p className="spa-services-head">SPA Services</p>
+        <p className="spa-services-head" data-aos="fade-up">
+          SPA Services
+        </p>
         <div className="all-spa-services">
-          <div className="service">
+          <div className="service" data-aos="zoom-in">
             <p className="each-service-head">Spa Brief</p>
             <div className="each-service-details">
               <p>Therapeutic Massage (30 mins)</p>
@@ -45,7 +57,7 @@ function SPA() {
             </div>
           </div>
 
-          <div className="service">
+          <div className="service" data-aos="zoom-in">
             <p className="each-service-head">Mini Beauty</p>
             <div className="each-service-details">
               <p>Therapeutic Massage (60 mins)</p>
@@ -54,7 +66,7 @@ function SPA() {
             </div>
           </div>
 
-          <div className="service">
+          <div className="service" data-aos="zoom-in">
             <p className="each-service-head">European Beauty</p>
             <div className="each-service-details">
               <p>Deep Tissue Massage (30 mins)</p>
@@ -63,7 +75,7 @@ function SPA() {
             </div>
           </div>
 
-          <div className="service">
+          <div className="service" data-aos="zoom-in">
             <p className="each-service-head">Total Rejuvenation</p>
             <div className="each-service-details">
               <p>Deep Tissue Massage (30 mins)</p>
@@ -72,7 +84,7 @@ function SPA() {
             </div>
           </div>
 
-          <div className="service">
+          <div className="service" data-aos="zoom-in">
             <p className="each-service-head">Renaissance</p>
             <div className="each-service-details">
               <p>Therapeutic Massage (60 mins)</p>
@@ -81,7 +93,7 @@ function SPA() {
             </div>
           </div>
 
-          <div className="service">
+          <div className="service" data-aos="zoom-in">
             <p className="each-service-head">City Escape</p>
             <div className="each-service-details">
               <p>Deep Tissue Massage (60 min)</p>
@@ -90,7 +102,7 @@ function SPA() {
             </div>
           </div>
 
-          <div className="service">
+          <div className="service" data-aos="zoom-in">
             <p className="each-service-head">Belles Signature</p>
             <div className="each-service-details">
               <p>Deep Tissue Massage (60 mins)</p>
@@ -99,7 +111,7 @@ function SPA() {
             </div>
           </div>
 
-          <div className="service">
+          <div className="service" data-aos="zoom-in">
             <p className="each-service-head">Perfect Indulgence</p>
             <div className="each-service-details">
               <p>
