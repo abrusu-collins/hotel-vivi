@@ -483,6 +483,10 @@ video {
   border-top-left-radius: 15px;
   border-bottom-right-radius: 15px;
 }
+.spa .time-off {
+  width: 70%;
+  margin: auto;
+}
 
 @media screen and (max-width: 788px) {
   .navbar .bar {
