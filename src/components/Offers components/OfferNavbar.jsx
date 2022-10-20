@@ -4,7 +4,7 @@ function OfferNav() {
         <div className="offers">
           <div className="offer1">
             <p className="offertitle">
-              ROMANTIC OFFERS
+              ROMANTIC OFFER
             </p>
             <a href="/offers/romanticoffer">Explore</a>
           </div>
@@ -25,7 +25,7 @@ function OfferNav() {
             <a href="/offers/suitelysensational">Explore</a>
           </div>
           <div className="offer6">
-            <p className="offertitle">CHRISTMAS OFFERS</p>
+            <p className="offertitle">CHRISTMAS OFFER</p>
             <a href="/offers/christmas">Explore</a>
           </div>
         </div>

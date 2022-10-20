@@ -5,7 +5,7 @@ function Romantic() {
     <div className="romantic-inner">
     <img src={romancemain} alt="" />
       <div className="right">
-        <p className="romance-main-head">ROMANTIC OFFERS</p>
+        <p className="romance-main-head">ROMANTIC OFFER</p>
         <p className="about-offer">
           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus
           quia illo est dignissimos ipsum corrupti iste eveniet esse similique
