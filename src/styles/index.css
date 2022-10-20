@@ -505,6 +505,20 @@ video {
   border-top-left-radius: 15px;
   border-bottom-right-radius: 15px;
 }
+.spa .spa-services {
+  padding-bottom: 50px;
+}
+.spa .spa-services .spa-services-head {
+  text-align: center;
+  padding: 50px 0;
+  font-size: 60px;
+}
+.spa .spa-services .all-spa-services {
+  display: grid;
+}
+.spa .spa-services .all-spa-services .service {
+  background-color: #080808;
+}
 
 @media screen and (max-width: 788px) {
   .navbar .bar {

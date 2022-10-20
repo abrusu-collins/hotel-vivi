@@ -34,7 +34,7 @@ function SPA() {
       </div>
 
       <div className="spa-services">
-        <p className="sap-services-head">SPA Services</p>
+        <p className="spa-services-head">SPA Services</p>
         <div className="all-spa-services">
           <div className="service">
             <p className="each-service-head">Spa Brief</p>

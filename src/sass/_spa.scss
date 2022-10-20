@@ -41,8 +41,9 @@
     & .time-off-head {
       font-size: 60px;
       padding: 50px;
-    } & .time-off-about{
-        margin-bottom: 50px;
+    }
+    & .time-off-about {
+      margin-bottom: 50px;
     }
     & a {
       text-decoration: none;
@@ -52,6 +53,20 @@
       display: inline-block;
       border-top-left-radius: 15px;
       border-bottom-right-radius: 15px;
+    }
+  }
+  & .spa-services {
+    & .spa-services-head {
+        text-align: center;
+      padding: 50px 0;
+      font-size: 60px;
+    }
+    padding-bottom: 50px;
+    & .all-spa-services{
+        display: grid;
+        & .service{
+            background-color: $dark_background;
+        }
     }
   }
 }
