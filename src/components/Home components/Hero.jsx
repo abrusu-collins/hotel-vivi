@@ -1,4 +1,4 @@
-import vid from "../../video/vid.mp4";
+import vid from "../../video/hotel-vid.mp4";
 
 function Hero() {
   return (
