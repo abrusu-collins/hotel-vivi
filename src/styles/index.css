@@ -528,6 +528,14 @@ video {
 .spa .spa-services .all-spa-services .service .each-service-head {
   font-size: 30px;
 }
+.spa .spa-services .all-spa-services .service .each-service-details {
+  margin-top: 15px;
+  text-align: left;
+}
+.spa .spa-services .all-spa-services .service .each-service-details p:nth-child(2) {
+  margin: 10px 0;
+}
+
 @media screen and (max-width: 788px) {
   .navbar .bar {
     display: block;
