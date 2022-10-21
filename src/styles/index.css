@@ -188,10 +188,6 @@ video {
   border-top-left-radius: 35px;
   border-bottom-right-radius: 35px;
   transition: 0.8s;
-  transition-property: all;
-  transition-duration: 0.8s;
-  transition-timing-function: ease;
-  transition-delay: 0s;
 }
 .all4u .offers div img:hover {
   transform: scale(1.1);
@@ -560,6 +556,7 @@ video {
 .gallery .grid div {
   width: 100%;
   border: 20px dashed black;
+  overflow: hidden;
 }
 .gallery .grid img {
   width: 100%;
@@ -568,6 +565,10 @@ video {
      object-fit: cover;
   border-top-left-radius: 25px;
   border-bottom-right-radius: 25px;
+  transition: 0.8s;
+}
+.gallery .grid img:hover {
+  transform: scale(1.1);
 }
 .gallery .grid ._4 {
   grid-area: _4;

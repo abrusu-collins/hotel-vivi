@@ -38,10 +38,6 @@
         border-bottom-right-radius: 35px;
 
         transition: 0.8s;
-        transition-property: all;
-        transition-duration: 0.8s;
-        transition-timing-function: ease;
-        transition-delay: 0s;
         &:hover {
           transform: scale(1.1);
         }
