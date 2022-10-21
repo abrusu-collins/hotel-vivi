@@ -16,28 +16,28 @@ function Gallery() {
 
       <div className="grid">
         <div className="_5">
-          <img src="" alt="" />
+          <img src={_5} alt="" />
         </div>
         <div className="_10">
-          <img src="" alt="" />
+          <img src={_10} alt="" />
         </div>
         <div className="_12">
-          <img src="" alt="" />
+          <img src={_12} alt="" />
         </div>
         <div className="_14">
-          <img src="" alt="" />
+          <img src={_14} alt="" />
         </div>
         <div className="_15">
-          <img src="" alt="" />
+          <img src={_15} alt="" />
         </div>
         <div className="_16">
-          <img src="" alt="" />
+          <img src={_16} alt="" />
         </div>
         <div className="_17">
-          <img src="" alt="" />
+          <img src={_17} alt="" />
         </div>
         <div className="_19">
-          <img src="" alt="" />
+          <img src={_19} alt="" />
         </div>
 
       </div>
