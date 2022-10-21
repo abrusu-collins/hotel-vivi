@@ -9,31 +9,57 @@
   }
   & .grid{
     display: grid;
+    // grid-template-columns: repeat(1,.25fr);
+    // grid-template-rows: repeat(3,.33fr);
     grid-template-areas:
     "_15 _16 _18 _5  _5"
     "_15 _14 _13 _17 _10"
     "_19 _19 _4 _17 _12";
-
+& div{
+    width:100%;
+   border: 2px dashed $dark_background;
+ 
+}
     & img{
         width:100%;
+        height: 100%;
+        object-fit: cover;
+        border-top-left-radius: 25px;
+        border-bottom-right-radius: 25px;
+
     }
+    & ._4{
+        grid-area: _4;
+    }
+    & ._5{
+        grid-area: _5;
+    }
+     & ._10{
+        grid-area: _10;
+    } 
+    & ._12{
+        grid-area: _12;
+    } 
+    & ._13{
+        grid-area: _13;
+    } 
+    & ._14{
+        grid-area: _14;
+    } 
     & ._15{
         grid-area: _15;
+    } 
+    & ._16{
+        grid-area: _16;
     }
-    & ._15{
-        grid-area: _15;
-    } & ._15{
-        grid-area: _15;
-    } & ._15{
-        grid-area: _15;
-    } & ._15{
-        grid-area: _15;
-    } & ._15{
-        grid-area: _15;
-    } & ._15{
-        grid-area: _15;
-    } & ._15{
-        grid-area: _15;
+    & ._17{
+        grid-area: _17;
+    }
+    & ._18{
+        grid-area: _18;
+    }
+    & ._19{
+        grid-area: _19;
     }
   }
 }

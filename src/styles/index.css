@@ -556,32 +556,50 @@ video {
   display: grid;
   grid-template-areas: "_15 _16 _18 _5  _5" "_15 _14 _13 _17 _10" "_19 _19 _4 _17 _12";
 }
+.gallery .grid div {
+  width: 100%;
+  border: 2px dashed #080808;
+}
 .gallery .grid img {
   width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-top-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+}
+.gallery .grid ._4 {
+  grid-area: _4;
+}
+.gallery .grid ._5 {
+  grid-area: _5;
+}
+.gallery .grid ._10 {
+  grid-area: _10;
+}
+.gallery .grid ._12 {
+  grid-area: _12;
+}
+.gallery .grid ._13 {
+  grid-area: _13;
+}
+.gallery .grid ._14 {
+  grid-area: _14;
 }
 .gallery .grid ._15 {
   grid-area: _15;
 }
-.gallery .grid ._15 {
-  grid-area: _15;
+.gallery .grid ._16 {
+  grid-area: _16;
 }
-.gallery .grid ._15 {
-  grid-area: _15;
+.gallery .grid ._17 {
+  grid-area: _17;
 }
-.gallery .grid ._15 {
-  grid-area: _15;
+.gallery .grid ._18 {
+  grid-area: _18;
 }
-.gallery .grid ._15 {
-  grid-area: _15;
-}
-.gallery .grid ._15 {
-  grid-area: _15;
-}
-.gallery .grid ._15 {
-  grid-area: _15;
-}
-.gallery .grid ._15 {
-  grid-area: _15;
+.gallery .grid ._19 {
+  grid-area: _19;
 }
 
 @media screen and (max-width: 788px) {
