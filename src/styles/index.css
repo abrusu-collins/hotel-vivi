@@ -545,6 +545,7 @@ video {
 .gallery {
   color: white;
   background-color: black;
+  padding-bottom: 50px;
 }
 .gallery .gallery-head {
   font-size: 60px;
