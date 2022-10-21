@@ -10,16 +10,16 @@ function Navbar() {
           <a href="/">Home</a>
         </li>
         <li>
-          <a href="/rooms&suites">Rooms & Suites</a>
-        </li>
-        <li>
-          <a href="/gallery">Gallery</a>
+          <a href="/spa">SPA</a>
         </li>
         <li>
           <a href="/offers">Offers</a>
         </li>
         <li>
-          <a href="/spa">SPA</a>
+          <a href="/rooms&suites">Rooms & Suites</a>
+        </li>
+        <li>
+          <a href="/gallery">Gallery</a>
         </li>
       </ul>
       <div
