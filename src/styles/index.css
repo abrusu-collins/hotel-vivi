@@ -552,6 +552,37 @@ video {
   font-family: "Roboto Slab", serif;
   text-align: center;
 }
+.gallery .grid {
+  display: grid;
+  grid-template-areas: "_15 _16 _18 _5  _5" "_15 _14 _13 _17 _10" "_19 _19 _4 _17 _12";
+}
+.gallery .grid img {
+  width: 100%;
+}
+.gallery .grid ._15 {
+  grid-area: _15;
+}
+.gallery .grid ._15 {
+  grid-area: _15;
+}
+.gallery .grid ._15 {
+  grid-area: _15;
+}
+.gallery .grid ._15 {
+  grid-area: _15;
+}
+.gallery .grid ._15 {
+  grid-area: _15;
+}
+.gallery .grid ._15 {
+  grid-area: _15;
+}
+.gallery .grid ._15 {
+  grid-area: _15;
+}
+.gallery .grid ._15 {
+  grid-area: _15;
+}
 
 @media screen and (max-width: 788px) {
   .navbar .bar {
