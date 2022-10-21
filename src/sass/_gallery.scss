@@ -9,15 +9,13 @@
   }
   & .grid{
     display: grid;
-    // grid-template-columns: repeat(1,.25fr);
-    // grid-template-rows: repeat(3,.33fr);
     grid-template-areas:
     "_15 _16 _18 _5  _5"
     "_15 _14 _13 _17 _10"
     "_19 _19 _4 _17 _12";
 & div{
     width:100%;
-   border: 2px dashed $dark_background;
+   border: 20px dashed black;
  
 }
     & img{
