@@ -1,0 +1,10 @@
+.gallery {
+  color: white;
+  background-color: black;
+  & .gallery-head {
+    font-size: 60px;
+    padding: 50px 0;
+    font-family: "Roboto Slab", serif;
+    text-align: center;
+  }
+}

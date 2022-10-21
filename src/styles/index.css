@@ -542,6 +542,17 @@ video {
   margin: 10px 0;
 }
 
+.gallery {
+  color: white;
+  background-color: black;
+}
+.gallery .gallery-head {
+  font-size: 60px;
+  padding: 50px 0;
+  font-family: "Roboto Slab", serif;
+  text-align: center;
+}
+
 @media screen and (max-width: 788px) {
   .navbar .bar {
     display: block;
