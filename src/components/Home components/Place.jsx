@@ -25,10 +25,10 @@ function Place() {
           <div className="describe">
             <p className="reasontitle">SERENE ENVIRONMENT </p>
             <p className="about">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime
-              ipsum voluptates, eius totam laboriosam eaque nam dolor tenetur
-              facere voluptatibus, corrupti esse impedit nihil nesciunt cum.
-              Expedita incidunt nam quam.
+              When it comes to noise, we don't tolerate it. That's why we have
+              an Anti-Noise policy. The Anti-Noise policy is one of our policies
+              we hold in high esteem. Due to this, we always have a serene
+              environment for your peace of mind.
             </p>
           </div>
         </div>
