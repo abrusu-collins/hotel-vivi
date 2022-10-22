@@ -544,6 +544,17 @@ video {
   font-family: "Roboto Slab", serif;
   text-align: center;
 }
+.rooms_suites .therooms {
+  width: 90%;
+}
+.rooms_suites .therooms .room {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 5rem;
+}
+.rooms_suites .therooms .room img {
+  width: 100%;
+}
 
 .gallery {
   color: white;

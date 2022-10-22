@@ -1,10 +1,21 @@
-.rooms_suites{
-    background-color: black;
-    color: white;
-    & .rooms_suiteshead{
-        font-size: 60px;
-        padding: 50px 0;
-        font-family: "Roboto Slab", serif;
-        text-align: center;
+.rooms_suites {
+  background-color: black;
+  color: white;
+  & .rooms_suiteshead {
+    font-size: 60px;
+    padding: 50px 0;
+    font-family: "Roboto Slab", serif;
+    text-align: center;
+  }
+  & .therooms {
+    width: 90%;
+    & .room {
+      display: grid;
+      grid-template-columns: repeat(2,1fr);
+      grid-gap: 5rem;
+      & img{
+        width: 100%;
+      }
     }
+  }
 }
