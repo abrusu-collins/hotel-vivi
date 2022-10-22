@@ -564,6 +564,8 @@ video {
 }
 .rooms_suites .therooms .room img {
   width: 50%;
+  border-top-left-radius: 25px;
+  border-bottom-right-radius: 25px;
 }
 .rooms_suites .therooms .room a {
   text-decoration: none;
