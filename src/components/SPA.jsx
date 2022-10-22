@@ -13,10 +13,11 @@ function SPA() {
         <div>
           <p className="spa-hero-head">Hotelvivi SPA</p>
           <p className="spa-hero-about">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam
-            dignissimos reprehenderit quo laudantium itaque modi id nulla sit
-            maiores tempora neque quidem fuga libero dicta tempore magni,
-            recusandae accusamus nemo?
+            Hotelvivi SPA is where you come when you need to get away,
+            de-stress, find balance and feel light. The spa's mission is to
+            provide the best spa treatments in the world. With this principles,
+            we hope to deliver the best service possible, every time. We look
+            forward to providing you a first-class spa experience!
           </p>
           <a href=" ">Book Now</a>
         </div>
@@ -27,23 +28,22 @@ function SPA() {
           Take some time off, relax and have a good time.
         </p>
         <p className="time-off-about" data-aos="fade-up">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora quis
-          quibusdam eaque sint soluta nobis dicta officia, ea illum ipsum cum
-          aperiam fugit at laboriosam eveniet voluptates sed assumenda possimus.
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut voluptatum
-          perspiciatis optio autem amet officiis iste vero, laborum dolor
-          reprehenderit corporis aut accusamus, quasi est illo, tenetur ex
-          distinctio officia. Lorem ipsum dolor sit amet consectetur adipisicing
-          elit. Eaque suscipit, cupiditate, dolores, delectus ullam quia commodi
-          labore illo alias eius officia tenetur laborum eligendi asperiores
-          sunt ipsam quod dicta inventore?
+          At Hotelviv Spa, we believe in the image of beautification and
+          guidance to fulfill your personal flare. Our goal is to offer
+          tranquility where you can relax and feel confident that your best
+          interest is in our hands. Our lives can be full of responsibilities
+          and stressors that effect our moods, decreasing our energies and
+          really draining are bodies. Here at Hotelvivi spa we have the perfect
+          antidote to revive your spirit, renew your skin and regenerate that
+          tired body. Come and experience the the most thrilling spa treatment
+          at hotelvivi.
         </p>
-        <a href=" " data-aos="fade-up">
-          Learn More
+        <a href="#spa-services" data-aos="fade-up">
+          Our Services
         </a>
       </div>
 
-      <div className="spa-services">
+      <div className="spa-services" id="spa-services">
         <p className="spa-services-head" data-aos="fade-up">
           SPA Services
         </p>
