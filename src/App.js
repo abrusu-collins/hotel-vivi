@@ -7,6 +7,7 @@ import RoomsSuites from "./components/RoomsSuites";
 import Gallery from "./components/Gallery";
 import Offers from "./components/Offers";
 import SPA from "./components/SPA";
+import RestaurantBar from "./components/RestaurantBar";
 import Footer from "./components/Footer";
 import Error404 from "./components/Error404";
 
@@ -24,6 +25,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/rooms&suites" element={<RoomsSuites />} />
+        <Route path="/retaurant&bar" element={<RestaurantBar />} />
         <Route path="/gallery" element={<Gallery />} />
         <Route path="/offers" element={<Offers />} />
         <Route path="/spa" element={<SPA />} />

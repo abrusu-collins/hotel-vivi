@@ -26,7 +26,7 @@ function All4u() {
             lot. Our Superior rooms are the natural choice for couples or
             business travelers.
           </p>
-          <a href=" ">Learn More</a>
+          <a href="/rooms&suites">Learn More</a>
         </div>
         <div className="bars" data-aos="fade-up">
           <img src={bar} alt="" />
@@ -37,7 +37,7 @@ function All4u() {
             flavors, charcuterie & cheese board, pizzas, burgers or local
             specialties on the grill.
           </p>
-          <a href=" ">Learn More</a>
+          <a href="/restaurant&bar">Learn More</a>
         </div>
         <div className="weddings" data-aos="fade-up">
           <img src={wedding} alt="" />
@@ -48,7 +48,7 @@ function All4u() {
             to be discovered, and so it is our mission to ensure your special
             day is unforgettable.
           </p>
-          <a href=" ">Learn More</a>
+          <a href="/offers/romanticoffer">Learn More</a>
         </div>
         <div className="meeting" data-aos="fade-up">
           <img src={meeting} alt="" />

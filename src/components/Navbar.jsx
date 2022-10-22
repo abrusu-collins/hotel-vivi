@@ -13,6 +13,9 @@ function Navbar() {
           <a href="/spa">SPA</a>
         </li>
         <li>
+          <a href="/restaurant&bar">Restaurant & Bar</a>
+        </li>
+        <li>
           <a href="/offers">Offers</a>
         </li>
         <li>
