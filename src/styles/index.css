@@ -538,6 +538,7 @@ video {
   background-color: black;
   color: white;
   padding-bottom: 50px;
+  border-top: 2px dashed white;
 }
 .rooms_suites .rooms_suiteshead {
   font-size: 60px;
@@ -554,8 +555,24 @@ video {
   justify-content: space-around;
   margin-bottom: 30px;
 }
+.rooms_suites .therooms .room .roomname {
+  font-size: 30px;
+  font-family: "Roboto Slab", serif;
+}
+.rooms_suites .therooms .room .details {
+  margin: 30px 0 30px 15px;
+}
 .rooms_suites .therooms .room img {
   width: 50%;
+}
+.rooms_suites .therooms .room a {
+  text-decoration: none;
+  color: inherit;
+  background-color: #fe0036;
+  padding: 12px 30px;
+  display: inline-block;
+  border-top-left-radius: 15px;
+  border-bottom-right-radius: 15px;
 }
 
 .gallery {
