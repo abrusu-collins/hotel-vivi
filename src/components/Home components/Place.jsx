@@ -36,10 +36,7 @@ function Place() {
           <div className="describe">
             <p className="reasontitle">COMFORTABLE ROOMS</p>
             <p className="about">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero
-              dolorem aperiam cumque totam hic, sint accusamus necessitatibus,
-              dolorum sapiente omnis deleniti facilis similique delectus. Autem,
-              tempora soluta. Dolorum, aliquam excepturi.
+              Transform your bedroom into a summertime paradise.
             </p>
           </div>
           <img src={comfort} alt="" />
@@ -50,10 +47,9 @@ function Place() {
           <div className="describe bottom-right">
             <p className="reasontitle">SECURITY GUARANTEED</p>
             <p className="about">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus
-              eaque suscipit possimus magni blanditiis similique dolorum neque
-              voluptatum impedit alias, odit iusto quo architecto numquam eum
-              ducimus fuga. Id, cumque.
+              At hotelvivi, we have well trained security personnels who keep us
+              safe. We employed a lot of them so they work day and night to make
+              sure the premises of Hotelvivi is safe.
             </p>
           </div>
         </div>
