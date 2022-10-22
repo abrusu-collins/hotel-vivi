@@ -21,8 +21,9 @@ function All4u() {
           <img src={accomodation} alt="" />
           <p className="title">ACCOMODATION</p>
           <p className="about">
-            Elegant and beautiful rooms with amenities such as TV,
-            comfortable beds, nice bathrooms with premium bath products, Wi-Fi and a whole lot.
+            Elegant and beautiful rooms with amenities such as TV, comfortable
+            beds, nice bathrooms with premium bath products, Wi-Fi and a whole
+            lot.
           </p>
           <a href=" ">Read More</a>
         </div>
@@ -30,10 +31,8 @@ function All4u() {
           <img src={bar} alt="" />
           <p className="title">RESTAURANT AND BAR</p>
           <p className="about">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Autem
-            reprehenderit magni placeat molestiae laborum rem unde excepturi
-            perferendis sit qui sapiente eligendi culpa neque, nesciunt eos
-            voluptas incidunt dolore. Rem.
+            Our restaurant and bar offers you with delicious and enjoyable foods and drinks
+            that will do justice to your hunger. 
           </p>
           <a href=" ">Read More</a>
         </div>
