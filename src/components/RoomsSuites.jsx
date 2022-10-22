@@ -22,8 +22,24 @@ function RoomsSuites() {
           </p>
           <div className="therooms">
             <div className="room1">
-              <img src="" alt="" />
-              <div></div>
+              <img src={_1} alt="" />
+              <div className="details">
+                <ul>
+                  <li>350-425 square feet</li>
+                  <li>Complimentary Wi-Fi</li>
+                  <li>Flat-screen TV</li>
+                  <li>iHome® alarm clock with Bluetooth®</li>
+                  <li>Tea and coffeemaker</li>
+                  <li>Premium bath products</li>
+                  <li>Hair dryer</li>
+                  <li>Plush robe</li>
+                  <li>Iron and ironing board</li>
+                  <li>In-room safe</li>
+                </ul>
+              </div>
+              <div>
+                <p className="roomname">Deluxe King City View</p>
+              </div>
             </div>
           </div>
         </div>
