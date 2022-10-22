@@ -1,22 +1,21 @@
-import earlymain from "../../img/early-main.jpg"
+import earlymain from "../../img/early-main.jpg";
 function Meetings() {
-    return ( 
-        <div className="romantic">
-        <div className="romantic-inner">
+  return (
+    <div className="romantic">
+      <div className="romantic-inner">
         <img src={earlymain} alt="" />
-          <div className="right">
-            <p className="romance-main-head">MEETINGS OFFER</p>
-            <p className="about-offer">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus
-              quia illo est dignissimos ipsum corrupti iste eveniet esse similique
-              quibusdam alias libero velit placeat voluptas nihil, facilis earum
-              totam minus.
-            </p>
-            <a href=" ">Get Offer</a>
-          </div>
+        <div className="right">
+          <p className="romance-main-head">MEETINGS OFFER</p>
+          <p className="about-offer">
+            We have sane and serene room spaces for your meetings. Our meeting
+            spaces can accomodate up to 35 people. We delight you with tasteful
+            breakfasts, themed coffee breaks, lunches, gala dinners and buffets.
+          </p>
+          <a href=" ">Get Offer</a>
         </div>
-        </div>
-     );
+      </div>
+    </div>
+  );
 }
 
 export default Meetings;
