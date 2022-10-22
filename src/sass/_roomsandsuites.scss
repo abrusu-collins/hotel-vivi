@@ -1,0 +1,10 @@
+.rooms_suites{
+    background-color: black;
+    color: white;
+    & .rooms_suiteshead{
+        font-size: 60px;
+        padding: 50px 0;
+        font-family: "Roboto Slab", serif;
+        text-align: center;
+    }
+}
