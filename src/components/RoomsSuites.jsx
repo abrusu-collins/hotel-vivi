@@ -129,6 +129,7 @@ function RoomsSuites() {
               <ul>
                 <li>220-250 square feet</li>
                 <li>One queen bed</li>
+                <li>Flat-screen TV</li>
                 <li>Pillow top mattresses and luxurious bedding</li>
                 <li>Custom marble or Art Deco tiling bathroom</li>
                 <li>Premium bath products</li>
