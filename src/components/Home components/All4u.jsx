@@ -13,16 +13,16 @@ function All4u() {
   }, []);
   return (
     <div className="all4u">
-      <p className="all4uheading" data-aos="fade-up">All for you</p>
+      <p className="all4uheading" data-aos="fade-up">
+        All for you
+      </p>
       <div className="offers">
         <div className="accomodation" data-aos="fade-up">
           <img src={accomodation} alt="" />
           <p className="title">ACCOMODATION</p>
           <p className="about">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Autem
-            reprehenderit magni placeat molestiae laborum rem unde excepturi
-            perferendis sit qui sapiente eligendi culpa neque, nesciunt eos
-            voluptas incidunt dolore. Rem.
+            Elegant and beautiful rooms with amenities such as TV,
+            comfortable beds, nice bathrooms with premium bath products, Wi-Fi and a whole lot.
           </p>
           <a href=" ">Read More</a>
         </div>
