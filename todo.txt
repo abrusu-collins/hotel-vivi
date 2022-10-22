@@ -1,8 +1,10 @@
 TODAY
 fill in
 change meeting imgs
-refactor css
+
 
     2MORO
+    refactor css
 Restaurant and bar site
+404 page
 responsive

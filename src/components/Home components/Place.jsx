@@ -13,10 +13,9 @@ function Place() {
           <div className="describe top-left">
             <p className="reasontitle">AFFORDABLE PRICES</p>
             <p className="about">
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iure
-              asperiores sed enim ab natus aut beatae id deleniti itaque, earum
-              in corrupti provident sunt ut suscipit architecto consequuntur
-              facere repudiandae.
+              We have a plan for everybody. Though most of our offers are
+              expensive, we have less expensive offers too. Don't worry about
+              cost if you have a low budget, we have you covered
             </p>
           </div>
           <img src={afford} alt="" />
