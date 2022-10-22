@@ -1,4 +1,3 @@
-R & S
 fill in
 refactor css
 responsive
