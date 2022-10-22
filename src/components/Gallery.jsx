@@ -10,15 +10,13 @@ import _17 from "../img/17.jpg";
 import _18 from "../img/18.jpg";
 import _19 from "../img/19.jpg";
 
-
-
 function Gallery() {
   return (
     <div className="gallery">
       <p className="gallery-head">Gallery</p>
 
       <div className="grid">
-      <div className="_15">
+        <div className="_15">
           <img src={_15} alt="" />
         </div>
         <div className="_16">
@@ -51,15 +49,6 @@ function Gallery() {
         <div className="_12">
           <img src={_12} alt="" />
         </div>
-       
-      
-        
-     
-        
-
-       
-      
-
       </div>
     </div>
   );
