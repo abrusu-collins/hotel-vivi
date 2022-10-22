@@ -537,6 +537,7 @@ video {
 .rooms_suites {
   background-color: black;
   color: white;
+  padding-bottom: 50px;
 }
 .rooms_suites .rooms_suiteshead {
   font-size: 60px;
@@ -545,15 +546,16 @@ video {
   text-align: center;
 }
 .rooms_suites .therooms {
-  width: 90%;
+  margin: auto;
 }
 .rooms_suites .therooms .room {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-gap: 5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-bottom: 30px;
 }
 .rooms_suites .therooms .room img {
-  width: 100%;
+  width: 50%;
 }
 
 .gallery {

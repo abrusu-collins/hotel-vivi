@@ -1,6 +1,7 @@
 .rooms_suites {
   background-color: black;
   color: white;
+  padding-bottom: 50px;
   & .rooms_suiteshead {
     font-size: 60px;
     padding: 50px 0;
@@ -8,13 +9,14 @@
     text-align: center;
   }
   & .therooms {
-    width: 90%;
+    margin: auto;
     & .room {
-      display: grid;
-      grid-template-columns: repeat(2,1fr);
-      grid-gap: 5rem;
-      & img{
-        width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+      margin-bottom: 30px;
+      & img {
+        width: 50%;
       }
     }
   }
