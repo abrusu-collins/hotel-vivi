@@ -16,7 +16,7 @@ import FamilyAndKids from "./components/Offers components/FamilyAndKids";
 import Wellness from "./components/Offers components/Wellness";
 import Christmas from "./components/Offers components/Christmas";
 import SuitelySensational from "./components/Offers components/SuitelySensational";
-import EarlyBookers from "./components/Offers components/EarlyBookers";
+import Meetings from "./components/Offers components/Meetings";
 
 function App() {
   return (
@@ -37,7 +37,7 @@ function App() {
         <Route path="/offers/wellnessandspa" element={<Wellness />} />
         <Route path="/offers/christmas" element={<Christmas />} />
         <Route path="/offers/suitelysensational" element={<SuitelySensational />} />
-        <Route path="/offers/earlybookers" element={<EarlyBookers />} />
+        <Route path="/offers/meetingsoffer" element={<Meetings />} />
       </Routes>
       <Footer />
     </Router>

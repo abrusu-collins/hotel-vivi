@@ -1,11 +1,11 @@
 import earlymain from "../../img/early-main.jpg"
-function EarlyBookers() {
+function Meetings() {
     return ( 
         <div className="romantic">
         <div className="romantic-inner">
         <img src={earlymain} alt="" />
           <div className="right">
-            <p className="romance-main-head">EARLY BIRDS</p>
+            <p className="romance-main-head">MEETINGS OFFER</p>
             <p className="about-offer">
               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus
               quia illo est dignissimos ipsum corrupti iste eveniet esse similique
@@ -19,4 +19,4 @@ function EarlyBookers() {
      );
 }
 
-export default EarlyBookers;
+export default Meetings;

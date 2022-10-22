@@ -58,7 +58,7 @@ function All4u() {
             spaces can accomodate up to 35 people. We delight you with tasteful
             breakfasts, themed coffee breaks, lunches, gala dinners and buffets.
           </p>
-          <a href=" ">Learn More</a>
+          <a href="/offers/meetingsoffer">Learn More</a>
         </div>
       </div>
     </div>

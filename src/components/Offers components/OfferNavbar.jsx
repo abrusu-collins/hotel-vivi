@@ -17,8 +17,8 @@ function OfferNav() {
             <a href="/offers/familyandkids">Explore</a>
           </div>
           <div className="offer4">
-            <p className="offertitle">EARLY BIRDS</p>
-            <a href="/offers/earlybookers">Explore</a>
+            <p className="offertitle">MEETINGS OFFER</p>
+            <a href="/offers/meetingsoffer">Explore</a>
           </div>
           <div className="offer5">
             <p className="offertitle">SUITELY SENSATIONAL</p>
