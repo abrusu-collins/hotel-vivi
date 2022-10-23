@@ -104,44 +104,44 @@ function RestaurantBar() {
           <p className="each_menu_head"> Drinks List</p>
           <div className="menu_list">
             <div className="food_price">
-              <p className="food"> Fresh Orange Juice </p>
-              <p className="price">£4.5</p>
+              <p className="food"> So Solid Brew Pale Ale, 4.4% </p>
+              <p className="price">£6.5</p>
             </div>
             <div className="food_price">
-              <p className="food"> Virgin Mary </p>
-              <p className="price">£4.5</p>
+              <p className="food"> Oliver's Fine Perry, 6% </p>
+              <p className="price">£5.2</p>
             </div>
             <div className="food_price">
-              <p className="food"> Grapefruit Juice</p>
-              <p className="price"> £3.5</p>
+              <p className="food"> Braybrooke Helles Lager 4.2%</p>
+              <p className="price"> £6</p>
             </div>
             <div className="food_price">
-              <p className="food"> Bucks Fizz </p>
-              <p className="price">£11</p>
+              <p className="food">Obsidian, Crossover Blendery, 6.5% </p>
+              <p className="price">£10.5</p>
             </div>
             <div className="food_price">
-              <p className="food"> Avocado, Lemon, Olive Oil </p>
-              <p className="price">£5</p>
+              <p className="food"> Thornbridge Zero Five 0.5% </p>
+              <p className="price">£5.5</p>
             </div>
             <div className="food_price">
-              <p className="food"> Scrambled Egg & Spinach </p>
-              <p className="price"> £8 </p>
+              <p className="food"> Voyer Cognac VSOP 40% </p>
+              <p className="price"> £9 </p>
             </div>
             <div className="food_price">
-              <p className="food"> e Spiced Borlotti Beans </p>
-              <p className="price">£21</p>
+              <p className="food"> Kavalan Single Malt 40% </p>
+              <p className="price">£20</p>
             </div>
             <div className="food_price">
-              <p className="food"> Chesnut </p>
-              <p className="price">£16</p>
+              <p className="food"> Buffalo Trace 40% </p>
+              <p className="price">£10.6</p>
             </div>
             <div className="food_price">
-              <p className="food"> Chamomile Tea </p>
-              <p className="price">£14.5</p>
+              <p className="food"> Barrel Aged Old Fashioned </p>
+              <p className="price">£12</p>
             </div>
             <div className="food_price">
-              <p className="food">Lemongrass & Ginger £3.5</p>
-              <p className="price">£7.5</p>
+              <p className="food">Paloma</p>
+              <p className="price">£10</p>
             </div>
           </div>
         </div>
