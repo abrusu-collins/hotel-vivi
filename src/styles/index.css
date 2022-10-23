@@ -444,8 +444,8 @@ video {
 }
 
 .spa {
-  background-color: black;
-  color: white;
+  background-color: #000000;
+  color: #fcfeff;
 }
 .spa .spa-hero {
   height: 90vh;
@@ -480,9 +480,10 @@ video {
   padding-bottom: 50px;
 }
 .spa .time-off .time-off-head {
-  font-family: "Roboto Slab", serif;
   font-size: 60px;
-  padding: 50px;
+  padding: 50px 0;
+  font-family: "Roboto Slab", serif;
+  text-align: center;
 }
 .spa .time-off .time-off-about {
   margin-bottom: 50px;
@@ -500,10 +501,10 @@ video {
   padding-bottom: 50px;
 }
 .spa .spa-services .spa-services-head {
+  font-size: 60px;
+  padding: 50px 0;
   font-family: "Roboto Slab", serif;
   text-align: center;
-  padding: 50px 0;
-  font-size: 60px;
 }
 .spa .spa-services .all-spa-services {
   display: grid;
