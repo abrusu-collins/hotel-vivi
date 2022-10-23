@@ -1,25 +1,24 @@
 .restaurant_bar {
   color: white;
   text-align: center;
-
   background-color: black;
   & .restaurant_bar_hero {
-    height:100vh;
+    height: 100vh;
     background: linear-gradient(to bottom, $dark_background 50%, black 50%);
-    & .restaurant_bar_hero_title{
-        font-size: 60px;
-        font-family: "Roboto Slab", serif;
-        padding: 50px 0;
-        text-align: center;
+    & .restaurant_bar_hero_title {
+      font-size: 60px;
+      font-family: "Roboto Slab", serif;
+      padding: 50px 0;
+      text-align: center;
     }
     & img {
       width: 50%;
     }
   }
-  & .menu_head{
+  & .menu_head {
     font-size: 60px;
-        font-family: "Roboto Slab", serif;
-        padding: 50px 0;
-        text-align: center;
+    font-family: "Roboto Slab", serif;
+    padding: 50px 0;
+    text-align: center;
   }
 }
