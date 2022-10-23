@@ -36,3 +36,11 @@ $dark_background: #080808;
 a:hover{
     opacity: 0.5;
 }
+
+@mixin button_style(){
+  text-decoration: none;
+  color: inherit;
+  padding: 10px;
+  border-top-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+}

@@ -15,11 +15,7 @@
     & li {
       margin-right: 40px;
       & a {
-        text-decoration: none;
-        color: inherit;
-        padding: 10px;
-        border-top-left-radius: 15px;
-        border-bottom-right-radius: 15px;
+        @include button_style;
         &:hover {
           background-color: $button_background;
           opacity: 1;
