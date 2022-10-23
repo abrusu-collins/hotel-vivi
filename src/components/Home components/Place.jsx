@@ -36,7 +36,9 @@ function Place() {
           <div className="describe">
             <p className="reasontitle">COMFORTABLE ROOMS</p>
             <p className="about">
-              Transform your bedroom into a summertime paradise.
+              Transform your bedroom into a summertime paradise. Our rooms have
+              beds that are super comfortable for you to have a good night
+              sleep. Our rooms are always kept very clean for you. How much comfort can you ask for?
             </p>
           </div>
           <img src={comfort} alt="" />
