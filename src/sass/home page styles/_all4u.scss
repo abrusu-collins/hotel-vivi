@@ -5,10 +5,7 @@
   color: white;
   border-bottom: 2px dashed white;
   & .all4uheading {
-    font-size: 60px;
-    font-family: "Roboto Slab", serif;
-    text-align: center;
-    padding: 50px 0;
+    @include head_style;
   }
   & .offers {
     display: grid;
@@ -18,10 +15,9 @@
     margin: auto;
     & div {
       background-color: $dark_background;
-      border-top-left-radius: 35px;
+      @include image_border_width;
       text-align: center;
       padding-bottom: 30px;
-      border-bottom-right-radius: 35px;
       overflow: hidden;
       & .title {
         font-family: "Roboto Slab", serif;
@@ -34,22 +30,14 @@
       }
       & img {
         width: 100%;
-        border-top-left-radius: 35px;
-        border-bottom-right-radius: 35px;
-
+        @include image_border_width;
         transition: 0.8s;
         &:hover {
           transform: scale(1.1);
         }
       }
       & a {
-        text-decoration: none;
-        color: inherit;
-        background-color: $button_background;
-        padding: 12px 30px;
-        display: inline-block;
-        border-top-left-radius: 15px;
-        border-bottom-right-radius: 15px;
+        @include button_style;
       }
     }
   }
