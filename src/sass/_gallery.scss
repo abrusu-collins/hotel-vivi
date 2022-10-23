@@ -1,8 +1,8 @@
 .gallery {
-  color: white;
-  background-color: black;
+  color: $primary_color;
+  background-color: $primary_background;
   padding-bottom: 50px;
-  border-top: 2px dashed white;
+  border-top: 2px dashed $primary_color;
   & .gallery-head {
     @include head_style;
   }
@@ -14,15 +14,14 @@
       "_19 _19 _4 _17 _12";
     & div {
       width: 100%;
-      border: 20px dashed black;
+      border: 20px dashed $primary_background;
       overflow: hidden;
     }
     & img {
       width: 100%;
       height: 100%;
       object-fit: cover;
-      border-top-left-radius: 25px;
-      border-bottom-right-radius: 25px;
+      @include image_border_width;
       transition: 0.8s;
       &:hover {
         transform: scale(1.1);

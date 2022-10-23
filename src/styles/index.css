@@ -625,10 +625,10 @@ video {
 }
 
 .gallery {
-  color: white;
-  background-color: black;
+  color: #fcfeff;
+  background-color: #000000;
   padding-bottom: 50px;
-  border-top: 2px dashed white;
+  border-top: 2px dashed #fcfeff;
 }
 .gallery .gallery-head {
   font-size: 60px;
@@ -642,7 +642,7 @@ video {
 }
 .gallery .grid div {
   width: 100%;
-  border: 20px dashed black;
+  border: 20px dashed #000000;
   overflow: hidden;
 }
 .gallery .grid img {
@@ -650,8 +650,8 @@ video {
   height: 100%;
   -o-object-fit: cover;
      object-fit: cover;
-  border-top-left-radius: 25px;
-  border-bottom-right-radius: 25px;
+  border-top-left-radius: 35px;
+  border-bottom-right-radius: 35px;
   transition: 0.8s;
 }
 .gallery .grid img:hover {
