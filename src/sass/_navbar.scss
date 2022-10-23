@@ -1,10 +1,10 @@
 .navbar {
   background-color: black;
-  padding: 30px 0;
   color: white;
-  display: flex;
+  padding: 30px 0;
+  @include flexer;
   justify-content: space-around;
-  align-items: center;
+
   & p {
     font-family: "Roboto Slab", serif;
   }

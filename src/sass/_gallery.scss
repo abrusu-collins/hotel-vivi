@@ -4,10 +4,7 @@
   padding-bottom: 50px;
   border-top: 2px dashed white;
   & .gallery-head {
-    font-size: 60px;
-    padding: 50px 0;
-    font-family: "Roboto Slab", serif;
-    text-align: center;
+    @include head_style;
   }
   & .grid {
     display: grid;
@@ -19,7 +16,6 @@
       width: 100%;
       border: 20px dashed black;
       overflow: hidden;
-     
     }
     & img {
       width: 100%;
@@ -27,8 +23,8 @@
       object-fit: cover;
       border-top-left-radius: 25px;
       border-bottom-right-radius: 25px;
-      transition: .8s;
-      &:hover{
+      transition: 0.8s;
+      &:hover {
         transform: scale(1.1);
       }
     }

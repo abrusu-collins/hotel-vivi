@@ -1,15 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap");
 @font-face {
-  font-family: wt;
-  src: url("../fonts/WhitneyHTF-Book.woff2");
-}
-@font-face {
   font-family: wtlight;
   src: url("../fonts/whitneyhtf-light.27502126ab5d4edca4cd6fc7f9d09eb8-webfont.woff2");
-}
-@font-face {
-  font-family: wtsemibold;
-  src: url("../fonts/whitneyhtf-semibold.07c6883ca1de7b74c59d207ce9d5845e-webfont.woff2");
 }
 * {
   margin: 0;
@@ -42,11 +34,11 @@ a:hover {
 
 .navbar {
   background-color: black;
-  padding: 30px 0;
   color: white;
+  padding: 30px 0;
   display: flex;
-  justify-content: space-around;
   align-items: center;
+  justify-content: space-around;
 }
 .navbar p {
   font-family: "Roboto Slab", serif;
