@@ -1,14 +1,11 @@
 .place {
   font-family: wtlight;
-  background-color: black;
-  color: white;
+  background-color: $primary_background;
+  color: $primary_color;
   padding-bottom: 50px;
   border-bottom: 2px dashed white;
   & .title {
-    padding: 50px 0;
-    font-size: 60px;
-    text-align: center;
-    font-family: "Roboto Slab", serif;
+    @include head_style;
   }
   & .reasons {
     width: 65%;
@@ -21,9 +18,8 @@
         background-color: $dark_background;
         width: 100%;
         height: 100%;
-        display: flex;
+        @include flexer;
         flex-direction: column;
-        align-items: center;
         justify-content: center;
         padding: 50px;
       }
