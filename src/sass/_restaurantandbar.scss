@@ -1,5 +1,8 @@
 .restaurant_bar{
     color: white;
     background-color: black;
-    height:100000vh;
+    & .restaurant_bar_hero{
+        height:100vh;
+        background: linear-gradient(to bottom, $dark_background 50%,black 50%);
+    }
 }
