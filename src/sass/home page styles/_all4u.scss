@@ -3,7 +3,7 @@
   padding-bottom: 50px;
   background-color: $primary_background;
   color: $primary_color;
-  border-bottom: 2px dashed white;
+  border-bottom: 2px dashed $primary_color;
   & .all4uheading {
     @include head_style;
   }

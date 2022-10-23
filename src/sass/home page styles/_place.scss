@@ -3,7 +3,7 @@
   background-color: $primary_background;
   color: $primary_color;
   padding-bottom: 50px;
-  border-bottom: 2px dashed white;
+  border-bottom: 2px dashed $primary_color;
   & .title {
     @include head_style;
   }

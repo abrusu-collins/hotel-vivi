@@ -2,7 +2,7 @@
   color: $primary_color;
   padding-bottom: 50px;
   background-color: $primary_background;
-  border-bottom: 2px dashed white;
+  border-bottom: 2px dashed $primary_color;
   & .luxuryheading {
     @include head_style;
   }
