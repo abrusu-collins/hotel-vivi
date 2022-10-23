@@ -1,10 +1,4 @@
-TODAY
-fill in
-change meeting imgs
-
-
-    2MORO
-    refactor css
+ refactor css
 Restaurant and bar site
 404 page
 responsive
