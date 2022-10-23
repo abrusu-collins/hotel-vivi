@@ -1,15 +1,14 @@
 .navbar {
-  background-color: black;
-  color: white;
+  background-color: $primary_background;
+  color: $primary_color;
   padding: 30px 0;
   @include flexer;
   justify-content: space-around;
-
   & p {
     font-family: "Roboto Slab", serif;
   }
   & ul {
-    display: flex;
+    @include flexer;
     justify-content: space-between;
     list-style: none;
     & li {

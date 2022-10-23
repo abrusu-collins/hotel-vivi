@@ -7,21 +7,18 @@ $primary_background:#000000;
   font-family: wtlight;
   src: url("../fonts/whitneyhtf-light.27502126ab5d4edca4cd6fc7f9d09eb8-webfont.woff2");
 }
-
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-family: wtlight;
 }
-
 .top-left {
   border-top-left-radius: 35px;
 }
 .bottom-right {
   border-bottom-right-radius: 35px;
 }
-
 ::selection {
   color: black;
   background: white;
@@ -29,7 +26,6 @@ $primary_background:#000000;
 a:hover {
   opacity: 0.5;
 }
-
 @mixin button_style() {
   text-decoration: none;
   color: inherit;
