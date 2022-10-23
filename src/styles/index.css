@@ -567,6 +567,11 @@ video {
 }
 .restaurant_bar .the_menu > div {
   background-color: #080808;
+  padding: 20px;
+}
+.restaurant_bar .the_menu > div .each_menu_head {
+  font-size: 30px;
+  font-family: "Roboto Slab", serif;
 }
 
 .rooms_suites {

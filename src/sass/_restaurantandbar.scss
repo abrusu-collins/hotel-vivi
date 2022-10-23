@@ -30,6 +30,12 @@
     margin: auto;
     & >div{
         background-color: $dark_background;
+        padding: 20px;
+        & .each_menu_head{
+            font-size: 30px;
+            font-family: "Roboto Slab", serif;
+
+        }
     }
   }
 }
