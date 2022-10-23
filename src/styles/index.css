@@ -538,6 +538,7 @@ video {
   color: white;
   text-align: center;
   background-color: #080808;
+  border-bottom: 2px dashed white;
 }
 .restaurant_bar .restaurant_bar_hero {
   height: 100vh;
@@ -568,11 +569,12 @@ video {
 }
 .restaurant_bar .the_menu > div {
   background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../img/pizza_1.png");
-  padding: 20px;
+  padding: 20px 20px 0 20px;
 }
 .restaurant_bar .the_menu > div .each_menu_head {
   font-size: 30px;
   font-family: "Roboto Slab", serif;
+  padding-bottom: 20px;
 }
 .restaurant_bar .the_menu > div .menu_list .food_price {
   display: flex;
