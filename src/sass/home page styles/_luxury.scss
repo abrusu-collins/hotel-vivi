@@ -1,20 +1,16 @@
 .luxury {
-  color: white;
+  color: $primary_color;
   padding-bottom: 50px;
-  background-color: black;
+  background-color: $primary_background;
   border-bottom: 2px dashed white;
   & .luxuryheading {
-    font-size: 60px;
-    text-align: center;
-    font-family: "Roboto Slab", serif;
-    padding: 50px 0;
+    @include head_style;
   }
   & .carousel {
     width: 50%;
     margin: auto;
     & img {
-      border-top-left-radius: 35px;
-      border-bottom-right-radius: 35px;
+      @include image_border_width;
     }
   }
 }

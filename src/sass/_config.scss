@@ -52,3 +52,7 @@ a:hover {
   font-family: "Roboto Slab", serif;
   text-align: center;
 }
+@mixin image_border_width{
+  border-top-left-radius: 35px;
+  border-bottom-right-radius: 35px;
+}

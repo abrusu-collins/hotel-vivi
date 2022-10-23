@@ -118,16 +118,16 @@ video {
 }
 
 .luxury {
-  color: white;
+  color: #fcfeff;
   padding-bottom: 50px;
-  background-color: black;
+  background-color: #000000;
   border-bottom: 2px dashed white;
 }
 .luxury .luxuryheading {
   font-size: 60px;
-  text-align: center;
-  font-family: "Roboto Slab", serif;
   padding: 50px 0;
+  font-family: "Roboto Slab", serif;
+  text-align: center;
 }
 .luxury .carousel {
   width: 50%;
