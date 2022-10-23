@@ -14,7 +14,7 @@
     & li {
       margin-right: 40px;
       & a {
-        @include button_style;
+        @include navbar_button_style;
         &:hover {
           background-color: $button_background;
           opacity: 1;

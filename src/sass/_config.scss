@@ -26,10 +26,19 @@ $primary_background:#000000;
 a:hover {
   opacity: 0.5;
 }
-@mixin button_style() {
+@mixin navbar_button_style() {
   text-decoration: none;
   color: inherit;
   padding: 10px;
+  border-top-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+@mixin button_style() {
+  text-decoration: none;
+  color: inherit;
+  background-color: $button_background;
+  padding: 12px 30px;
+  display: inline-block;
   border-top-left-radius: 15px;
   border-bottom-right-radius: 15px;
 }

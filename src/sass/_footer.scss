@@ -1,47 +1,39 @@
 .footer {
   padding-bottom: 50px;
   background-color: $dark_background;
-  color: white;
- & .footer-inner{
+  color: $primary_color;
+  & .footer-inner {
     margin: auto;
-    width:70%;
-    & .quick{
-        margin-bottom: 50px;
-        & p{
-            margin-bottom: 20px;
-        }
-        & .thelinks{
-            display: flex;
-            justify-content: space-between;
-        }
+    width: 70%;
+    & .quick {
+      margin-bottom: 50px;
+      & p {
+        margin-bottom: 20px;
+      }
+      & .thelinks {
+        @include flexer;
+        justify-content: space-between;
+      }
     }
-    & .devandreach{
-       display: flex;
-       justify-content: space-between;
-       align-items: center;
-       & .footertopics{
+    & .devandreach {
+      @include flexer;
+      justify-content: space-between;
+      & .footertopics {
         margin-bottom: 10px;
-       }
+      }
     }
     & .footerheading {
-        font-family: "Roboto Slab", serif;
-        font-size: 30px;
-        padding: 50px 0;
-      }
+      @include head_style;
+      font-size: 30px;
+      text-align: left;
+    }
 
-      & .footertopics {
-        font-family: "Roboto Slab", serif;
-        font-size: 20px;
-      }
-      & a{
-        text-decoration: none;
-        color: inherit;
-        background-color: $button_background;
-        padding: 12px 30px;
-        display: inline-block;
-        border-top-left-radius: 15px;
-        border-bottom-right-radius: 15px;
-      }
- }
-  
+    & .footertopics {
+      font-family: "Roboto Slab", serif;
+      font-size: 20px;
+    }
+    & a {
+      @include button_style;
+    }
+  }
 }

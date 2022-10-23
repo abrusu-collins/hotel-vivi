@@ -294,7 +294,7 @@ video {
 .footer {
   padding-bottom: 50px;
   background-color: #080808;
-  color: white;
+  color: #fcfeff;
 }
 .footer .footer-inner {
   margin: auto;
@@ -308,20 +308,24 @@ video {
 }
 .footer .footer-inner .quick .thelinks {
   display: flex;
+  align-items: center;
   justify-content: space-between;
 }
 .footer .footer-inner .devandreach {
   display: flex;
-  justify-content: space-between;
   align-items: center;
+  justify-content: space-between;
 }
 .footer .footer-inner .devandreach .footertopics {
   margin-bottom: 10px;
 }
 .footer .footer-inner .footerheading {
-  font-family: "Roboto Slab", serif;
-  font-size: 30px;
+  font-size: 60px;
   padding: 50px 0;
+  font-family: "Roboto Slab", serif;
+  text-align: center;
+  font-size: 30px;
+  text-align: left;
 }
 .footer .footer-inner .footertopics {
   font-family: "Roboto Slab", serif;
