@@ -237,13 +237,13 @@ video {
 }
 
 .reviews {
-  background-color: black;
-  color: white;
+  background-color: #000000;
+  color: #fcfeff;
   padding-bottom: 50px;
 }
 .reviews .reviewsheading {
   font-size: 60px;
-  padding: 50px;
+  padding: 50px 0;
   font-family: "Roboto Slab", serif;
   text-align: center;
 }
@@ -283,8 +283,8 @@ video {
   border-top-left-radius: 35px;
   border-bottom-right-radius: 35px;
   display: flex;
-  flex-direction: column;
   align-items: center;
+  flex-direction: column;
   justify-content: center;
 }
 .reviews .flex-1 div {

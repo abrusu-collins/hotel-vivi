@@ -1,12 +1,9 @@
 .reviews {
-  background-color: black;
-  color: white;
+  background-color: $primary_background;
+  color: $primary_color;
   padding-bottom: 50px;
   & .reviewsheading {
-    font-size: 60px;
-    padding: 50px;
-    font-family: "Roboto Slab", serif;
-    text-align: center;
+    @include head_style;
   }
   & > div {
     font-family: wtlight;
@@ -27,8 +24,7 @@
       background-color: $dark_background;
       text-align: center;
       padding: 30px;
-      border-top-left-radius: 35px;
-      border-bottom-right-radius: 35px;
+      @include image_border_width;
     }
   }
   & img {
@@ -41,11 +37,9 @@
     margin: 50px auto 0 auto;
     background-color: $dark_background;
     padding: 50px;
-    border-top-left-radius: 35px;
-    border-bottom-right-radius: 35px;
-    display: flex;
+    @include image_border_width;
+    @include flexer;
     flex-direction: column;
-    align-items: center;
     justify-content: center;
     & div {
       text-align: center;
