@@ -536,11 +536,21 @@ video {
 
 .restaurant_bar {
   color: white;
+  text-align: center;
   background-color: black;
 }
 .restaurant_bar .restaurant_bar_hero {
   height: 100vh;
   background: linear-gradient(to bottom, #080808 50%, black 50%);
+}
+.restaurant_bar .restaurant_bar_hero .restaurant_bar_hero_title {
+  font-size: 60px;
+  font-family: "Roboto Slab", serif;
+  padding: 50px 0;
+  text-align: center;
+}
+.restaurant_bar .restaurant_bar_hero img {
+  width: 50%;
 }
 
 .rooms_suites {
