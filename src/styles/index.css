@@ -537,7 +537,7 @@ video {
 .restaurant_bar {
   color: white;
   text-align: center;
-  background-color: black;
+  background-color: #080808;
 }
 .restaurant_bar .restaurant_bar_hero {
   height: 100vh;
@@ -564,14 +564,20 @@ video {
   grid-gap: 4rem;
   width: 80%;
   margin: auto;
+  padding-bottom: 50px;
 }
 .restaurant_bar .the_menu > div {
-  background-color: #080808;
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../img/pizza_1.png");
   padding: 20px;
 }
 .restaurant_bar .the_menu > div .each_menu_head {
   font-size: 30px;
   font-family: "Roboto Slab", serif;
+}
+.restaurant_bar .the_menu > div .menu_list .food_price {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 35px;
 }
 
 .rooms_suites {

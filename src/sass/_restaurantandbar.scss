@@ -1,7 +1,7 @@
 .restaurant_bar {
   color: white;
   text-align: center;
-  background-color: black;
+  background-color: $dark_background;
   & .restaurant_bar_hero {
     height: 100vh;
     background: linear-gradient(to bottom, $dark_background 50%, black 50%);
@@ -28,13 +28,21 @@
     grid-gap:4rem;
     width: 80%;
     margin: auto;
+    padding-bottom: 50px;
     & >div{
-        background-color: $dark_background;
+        background:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),  url("../img/pizza_1.png");
         padding: 20px;
         & .each_menu_head{
             font-size: 30px;
             font-family: "Roboto Slab", serif;
 
+        }
+        & .menu_list{
+            & .food_price{
+                display: flex;
+                justify-content: space-between;
+                margin-bottom: 35px;
+            }
         }
     }
   }
