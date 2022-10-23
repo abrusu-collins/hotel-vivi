@@ -558,6 +558,16 @@ video {
   padding: 50px 0;
   text-align: center;
 }
+.restaurant_bar .the_menu {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 4rem;
+  width: 80%;
+  margin: auto;
+}
+.restaurant_bar .the_menu > div {
+  background-color: #080808;
+}
 
 .rooms_suites {
   background-color: black;

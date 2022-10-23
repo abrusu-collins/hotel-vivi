@@ -21,6 +21,17 @@
     padding: 50px 0;
     text-align: center;
   }
+
+  & .the_menu{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap:4rem;
+    width: 80%;
+    margin: auto;
+    & >div{
+        background-color: $dark_background;
+    }
+  }
 }
 
 
