@@ -1,6 +1,15 @@
 import restaurant_hero_img from "../img/restaurant_hero_img.webp";
 
+import AOS from "aos";
+import "aos/dist/aos.css";
+import { useEffect } from "react";
+
+
 function RestaurantBar() {
+    useEffect(() => {
+        AOS.init();
+      }, []);
+
   return (
     <div className="restaurant_bar">
       <div className="restaurant_bar_hero">
@@ -10,7 +19,7 @@ function RestaurantBar() {
       <p className="menu_head">Our Menu</p>
 
       <div className="the_menu">
-        <div className="breakfast">
+        <div className="breakfast" data-aos="fade-up">
           <p className="each_menu_head">Breakfast</p>
           <div className="menu_list">
             <div className="food_price">
@@ -55,7 +64,7 @@ function RestaurantBar() {
             </div>
           </div>
         </div>
-        <div className="lunch_dinner">
+        <div className="lunch_dinner" data-aos="fade-up">
           <p className="each_menu_head">Lunch and Dinner</p>
           <div className="menu_list">
             <div className="food_price">
@@ -100,7 +109,7 @@ function RestaurantBar() {
             </div>
           </div>
         </div>
-        <div className="drinks">
+        <div className="drinks" data-aos="fade-up">
           <p className="each_menu_head"> Drinks List</p>
           <div className="menu_list">
             <div className="food_price">
