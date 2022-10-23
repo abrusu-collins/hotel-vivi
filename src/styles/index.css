@@ -141,8 +141,8 @@ video {
 .all4u {
   font-family: wtlight;
   padding-bottom: 50px;
-  background-color: black;
-  color: white;
+  background-color: #000000;
+  color: #fcfeff;
   border-bottom: 2px dashed white;
 }
 .all4u .all4uheading {

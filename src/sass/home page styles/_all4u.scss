@@ -1,8 +1,8 @@
 .all4u {
   font-family: wtlight;
   padding-bottom: 50px;
-  background-color: black;
-  color: white;
+  background-color: $primary_background;
+  color: $primary_color;
   border-bottom: 2px dashed white;
   & .all4uheading {
     @include head_style;
