@@ -342,16 +342,16 @@ video {
 }
 
 .offernav {
-  color: white;
-  background-color: black;
-  border-top: 2px dashed white;
+  color: #fcfeff;
+  background-color: #000000;
+  border-top: 2px dashed #fcfeff;
   padding-bottom: 50px;
 }
 .offernav .offerpagehead {
-  padding: 50px 0;
-  text-align: center;
   font-size: 60px;
+  padding: 50px 0;
   font-family: "Roboto Slab", serif;
+  text-align: center;
 }
 .offernav .offers {
   display: grid;
@@ -388,16 +388,16 @@ video {
   border-bottom-right-radius: 15px;
 }
 .offernav .offers div {
+  border-top-left-radius: 35px;
+  border-bottom-right-radius: 35px;
+  display: flex;
+  align-items: center;
   height: 40vh;
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
-  display: flex;
-  align-items: center;
   justify-content: center;
   flex-direction: column;
-  border-top-left-radius: 35px;
-  border-bottom-right-radius: 35px;
 }
 .offernav .offers div p {
   margin-bottom: 20px;

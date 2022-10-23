@@ -1,13 +1,10 @@
 .offernav {
-  color: white;
-  background-color: black;
-  border-top: 2px dashed white;
+  color: $primary_color;
+  background-color: $primary_background;
+  border-top: 2px dashed $primary_color;
   padding-bottom: 50px;
   & .offerpagehead {
-    padding: 50px 0;
-    text-align: center;
-    font-size: 60px;
-    font-family: "Roboto Slab", serif;
+    @include head_style;
   }
   & .offers {
     display: grid;
@@ -58,25 +55,17 @@
         url("../img/christmas.jpg");
     }
     & a {
-      text-decoration: none;
-      color: inherit;
-      background-color: $button_background;
-      padding: 12px 30px;
-      display: inline-block;
-      border-top-left-radius: 15px;
-      border-bottom-right-radius: 15px;
+      @include button_style;
     }
     & div {
+      @include image_border_width;
+      @include flexer;
       height: 40vh;
       background-size: contain;
       background-repeat: no-repeat;
       background-position: center;
-      display: flex;
-      align-items: center;
       justify-content: center;
       flex-direction: column;
-      border-top-left-radius: 35px;
-      border-bottom-right-radius: 35px;
       & p {
         margin-bottom: 20px;
       }
