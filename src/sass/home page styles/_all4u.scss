@@ -14,8 +14,8 @@
     width: 70%;
     margin: auto;
     & div {
-      background-color: $dark_background;
       @include image_border_width;
+      background-color: $dark_background;
       text-align: center;
       padding-bottom: 30px;
       overflow: hidden;
@@ -29,8 +29,8 @@
         padding: 0 20px 20px 20px;
       }
       & img {
-        width: 100%;
         @include image_border_width;
+        width: 100%;
         transition: 0.8s;
         &:hover {
           transform: scale(1.1);

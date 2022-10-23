@@ -21,10 +21,10 @@
     width: 70%;
     margin: auto;
     & div {
+      @include image_border_width;
       background-color: $dark_background;
       text-align: center;
       padding: 30px;
-      @include image_border_width;
     }
   }
   & img {
@@ -33,12 +33,12 @@
     border-radius: 50%;
   }
   & .flex-1 {
+    @include image_border_width;
+    @include flexer;
     width: 70%;
     margin: 50px auto 0 auto;
     background-color: $dark_background;
     padding: 50px;
-    @include image_border_width;
-    @include flexer;
     flex-direction: column;
     justify-content: center;
     & div {
