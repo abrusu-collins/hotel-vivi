@@ -1,4 +1,3 @@
- refactor css
-Restaurant and bar site
+refactor css
 404 page
 responsive
