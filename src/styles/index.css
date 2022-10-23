@@ -80,11 +80,11 @@ a:hover {
   height: 100vh;
   width: 100%;
   background: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45));
-  color: white;
+  color: #fcfeff;
   font-size: 20px;
   display: flex;
-  flex-direction: column;
   align-items: center;
+  flex-direction: column;
   justify-content: center;
   font-family: wtlight;
 }
@@ -97,10 +97,10 @@ a:hover {
   font-size: 60px;
 }
 .hero .text a {
-  color: inherit;
   text-decoration: none;
+  color: inherit;
   background-color: #fe0036;
-  padding: 12px 40px;
+  padding: 12px 30px;
   display: inline-block;
   border-top-left-radius: 15px;
   border-bottom-right-radius: 15px;
