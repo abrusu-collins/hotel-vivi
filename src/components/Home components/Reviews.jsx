@@ -1,7 +1,6 @@
 import fredrica from "../../img/fredrica.jfif";
 import mark from "../../img/mark.jfif";
 import farhan from "../../img/farhan.jfif";
-
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";

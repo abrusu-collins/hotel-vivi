@@ -2,7 +2,6 @@ import wedding from "../../img/wedding.jpg";
 import bar from "../../img/bar.jpg";
 import meeting from "../../img/meeting.jpg";
 import accomodation from "../../img/accomodation.jpg";
-
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";

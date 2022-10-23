@@ -1,4 +1,5 @@
 import earlymain from "../../img/early-main.jpg";
+
 function Meetings() {
   return (
     <div className="romantic">

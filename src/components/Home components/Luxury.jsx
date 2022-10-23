@@ -10,7 +10,6 @@ import _7 from "../../img/7.jpg";
 import _8 from "../../img/8.jpg";
 import _9 from "../../img/9.jpg";
 import _10 from "../../img/10.jpg";
-
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";

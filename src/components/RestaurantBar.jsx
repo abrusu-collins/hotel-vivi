@@ -1,9 +1,7 @@
 import restaurant_hero_img from "../img/restaurant_hero_img.webp";
-
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
-
 
 function RestaurantBar() {
     useEffect(() => {

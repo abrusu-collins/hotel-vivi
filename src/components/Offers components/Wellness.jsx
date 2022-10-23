@@ -1,4 +1,5 @@
 import wellnessmain from "../../img/spa-main.jpg";
+
 function Wellness() {
   return (
     <div className="romantic">

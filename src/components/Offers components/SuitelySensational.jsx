@@ -1,4 +1,5 @@
 import suitemain from "../../img/suite-main.jpg";
+
 function SuitelySensational() {
   return (
     <div className="romantic">
