@@ -1,5 +1,5 @@
 .restaurant_bar {
-  color: white;
+  color: $primary_color;
   text-align: center;
   background-color: $dark_background;
   border-bottom: 2px dashed white;
@@ -7,51 +7,39 @@
     height: 100vh;
     background: linear-gradient(to bottom, $dark_background 50%, black 50%);
     & .restaurant_bar_hero_title {
-      font-size: 60px;
-      font-family: "Roboto Slab", serif;
-      padding: 50px 0;
-      text-align: center;
+      @include head_style;
     }
     & img {
       width: 50%;
     }
   }
   & .menu_head {
-    font-size: 60px;
-    font-family: "Roboto Slab", serif;
-    padding: 50px 0;
-    text-align: center;
+    @include head_style;
   }
 
-  & .the_menu{
+  & .the_menu {
     display: grid;
-    grid-template-columns: repeat(3,1fr);
-    grid-gap:4rem;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 4rem;
     width: 80%;
     margin: auto;
     padding-bottom: 50px;
-    & >div{
-        background:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),  url("../img/pizza_2.png");
-        padding: 20px 20px 0 20px;
-        & .each_menu_head{
-            font-size: 30px;
-            font-family: "Roboto Slab", serif;
-            padding-bottom: 20px;
-
+    & > div {
+      background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+        url("../img/pizza_2.png");
+      padding: 20px 20px 0 20px;
+      & .each_menu_head {
+        font-size: 30px;
+        font-family: "Roboto Slab", serif;
+        padding-bottom: 20px;
+      }
+      & .menu_list {
+        & .food_price {
+          @include flexer;
+          justify-content: space-between;
+          margin-bottom: 35px;
         }
-        & .menu_list{
-            & .food_price{
-                display: flex;
-                justify-content: space-between;
-                margin-bottom: 35px;
-            }
-        }
+      }
     }
   }
 }
-
-
-
-
-
-// url("../img/pizza_1.png")

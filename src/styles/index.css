@@ -533,7 +533,7 @@ video {
 }
 
 .restaurant_bar {
-  color: white;
+  color: #fcfeff;
   text-align: center;
   background-color: #080808;
   border-bottom: 2px dashed white;
@@ -544,8 +544,8 @@ video {
 }
 .restaurant_bar .restaurant_bar_hero .restaurant_bar_hero_title {
   font-size: 60px;
-  font-family: "Roboto Slab", serif;
   padding: 50px 0;
+  font-family: "Roboto Slab", serif;
   text-align: center;
 }
 .restaurant_bar .restaurant_bar_hero img {
@@ -553,8 +553,8 @@ video {
 }
 .restaurant_bar .menu_head {
   font-size: 60px;
-  font-family: "Roboto Slab", serif;
   padding: 50px 0;
+  font-family: "Roboto Slab", serif;
   text-align: center;
 }
 .restaurant_bar .the_menu {
@@ -576,6 +576,7 @@ video {
 }
 .restaurant_bar .the_menu > div .menu_list .food_price {
   display: flex;
+  align-items: center;
   justify-content: space-between;
   margin-bottom: 35px;
 }
