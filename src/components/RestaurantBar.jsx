@@ -1,5 +1,5 @@
 import restaurant_hero_img from "../img/restaurant_hero_img.webp";
-// import hero_bg from "../img/pizza_.png";
+
 function RestaurantBar() {
   return (
     <div className="restaurant_bar">
