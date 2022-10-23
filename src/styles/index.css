@@ -552,6 +552,12 @@ video {
 .restaurant_bar .restaurant_bar_hero img {
   width: 50%;
 }
+.restaurant_bar .menu_head {
+  font-size: 60px;
+  font-family: "Roboto Slab", serif;
+  padding: 50px 0;
+  text-align: center;
+}
 
 .rooms_suites {
   background-color: black;

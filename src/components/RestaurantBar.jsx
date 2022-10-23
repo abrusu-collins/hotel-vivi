@@ -7,10 +7,9 @@ function RestaurantBar() {
         <p className="restaurant_bar_hero_title">Hotelvivi Restaurant & Bar</p>
         <img src={restaurant_hero_img} alt="" />
       </div>
-      <div className="menu_bg">
-       
-        <img src={menu_bg} alt="" />
-      </div>
+     <p className="menu_head">
+        Our Menu
+     </p>
     </div>
   );
 }
