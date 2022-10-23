@@ -57,9 +57,93 @@ function RestaurantBar() {
         </div>
         <div className="lunch_dinner">
           <p className="each_menu_head">Lunch and Dinner</p>
+          <div className="menu_list">
+            <div className="food_price">
+              <p className="food"> Fresh Orange Juice </p>
+              <p className="price">£4.5</p>
+            </div>
+            <div className="food_price">
+              <p className="food"> Virgin Mary </p>
+              <p className="price">£4.5</p>
+            </div>
+            <div className="food_price">
+              <p className="food"> Grapefruit Juice</p>
+              <p className="price"> £3.5</p>
+            </div>
+            <div className="food_price">
+              <p className="food"> Bucks Fizz </p>
+              <p className="price">£11</p>
+            </div>
+            <div className="food_price">
+              <p className="food"> Avocado, Lemon, Olive Oil </p>
+              <p className="price">£5</p>
+            </div>
+            <div className="food_price">
+              <p className="food"> Scrambled Egg & Spinach </p>
+              <p className="price"> £8 </p>
+            </div>
+            <div className="food_price">
+              <p className="food"> e Spiced Borlotti Beans </p>
+              <p className="price">£21</p>
+            </div>
+            <div className="food_price">
+              <p className="food"> Chesnut </p>
+              <p className="price">£16</p>
+            </div>
+            <div className="food_price">
+              <p className="food"> Chamomile Tea </p>
+              <p className="price">£14.5</p>
+            </div>
+            <div className="food_price">
+              <p className="food">Lemongrass & Ginger £3.5</p>
+              <p className="price">£7.5</p>
+            </div>
+          </div>
         </div>
         <div className="drinks">
           <p className="each_menu_head"> Drinks List</p>
+          <div className="menu_list">
+            <div className="food_price">
+              <p className="food"> Fresh Orange Juice </p>
+              <p className="price">£4.5</p>
+            </div>
+            <div className="food_price">
+              <p className="food"> Virgin Mary </p>
+              <p className="price">£4.5</p>
+            </div>
+            <div className="food_price">
+              <p className="food"> Grapefruit Juice</p>
+              <p className="price"> £3.5</p>
+            </div>
+            <div className="food_price">
+              <p className="food"> Bucks Fizz </p>
+              <p className="price">£11</p>
+            </div>
+            <div className="food_price">
+              <p className="food"> Avocado, Lemon, Olive Oil </p>
+              <p className="price">£5</p>
+            </div>
+            <div className="food_price">
+              <p className="food"> Scrambled Egg & Spinach </p>
+              <p className="price"> £8 </p>
+            </div>
+            <div className="food_price">
+              <p className="food"> e Spiced Borlotti Beans </p>
+              <p className="price">£21</p>
+            </div>
+            <div className="food_price">
+              <p className="food"> Chesnut </p>
+              <p className="price">£16</p>
+            </div>
+            <div className="food_price">
+              <p className="food"> Chamomile Tea </p>
+              <p className="price">£14.5</p>
+            </div>
+            <div className="food_price">
+              <p className="food">Lemongrass & Ginger £3.5</p>
+              <p className="price">£7.5</p>
+            </div>
+          </div>
         </div>
       </div>
     </div>
