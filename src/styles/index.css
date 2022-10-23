@@ -582,10 +582,10 @@ video {
 }
 
 .rooms_suites {
-  background-color: black;
-  color: white;
+  background-color: #000000;
+  color: #fcfeff;
   padding-bottom: 50px;
-  border-top: 2px dashed white;
+  border-top: 2px dashed #fcfeff;
 }
 .rooms_suites .rooms_suiteshead {
   font-size: 60px;
@@ -611,8 +611,8 @@ video {
 }
 .rooms_suites .therooms .room img {
   width: 50%;
-  border-top-left-radius: 25px;
-  border-bottom-right-radius: 25px;
+  border-top-left-radius: 35px;
+  border-bottom-right-radius: 35px;
 }
 .rooms_suites .therooms .room a {
   text-decoration: none;
