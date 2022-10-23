@@ -534,6 +534,12 @@ video {
   margin: 10px 0;
 }
 
+.restaurant_bar {
+  color: white;
+  background-color: black;
+  height: 100000vh;
+}
+
 .rooms_suites {
   background-color: black;
   color: white;
