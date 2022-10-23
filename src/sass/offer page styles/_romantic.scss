@@ -1,8 +1,8 @@
 .romantic {
-  background-color: black;
-  color: white;
+  background-color: $primary_background;
+  color: $primary_color;
   padding: 50px 0;
-  border-top: 2px dashed white;
+  border-top: 2px dashed $primary_color;
   & .romantic-inner {
     margin: auto;
     display: grid;
@@ -14,25 +14,17 @@
       border-bottom-right-radius: 25px;
     }
     & div {
-      display: flex;
+      @include flexer;
       flex-direction: column;
-      align-items: center;
       justify-content: center;
       & .romance-main-head {
-        font-size: 60px;
-        font-family: "Roboto Slab", serif;
+        @include head_style;
       }
       & .about-offer {
         margin: 30px 0;
       }
       & a {
-        text-decoration: none;
-        color: inherit;
-        background-color: $button_background;
-        padding: 12px 30px;
-        display: inline-block;
-        border-top-left-radius: 15px;
-        border-bottom-right-radius: 15px;
+        @include button_style;
       }
     }
   }
