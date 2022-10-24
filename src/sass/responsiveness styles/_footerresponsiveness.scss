@@ -1,0 +1,14 @@
+@media screen and (max-width: 1141px) {
+  .footer {
+    & .footer-inner {
+      & .quick {
+        & .thelinks {
+            display: grid;
+            grid-template-columns: repeat(3,1fr);
+            text-align: center;
+            grid-gap:2rem;
+        }
+      }
+    }
+  }
+}
