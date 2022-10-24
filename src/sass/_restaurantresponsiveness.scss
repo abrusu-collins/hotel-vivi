@@ -74,3 +74,15 @@
     }
   }
 }
+@media screen and (max-width: 341px) {
+    .restaurant_bar {
+      & .restaurant_bar_hero {
+       & img{
+        width: 95%;
+       }
+      }
+      & .the_menu {
+        width: 90%;
+      }
+    }
+  }

@@ -1030,3 +1030,11 @@ video {
     width: 85%;
   }
 }
+@media screen and (max-width: 341px) {
+  .restaurant_bar .restaurant_bar_hero img {
+    width: 95%;
+  }
+  .restaurant_bar .the_menu {
+    width: 90%;
+  }
+}
