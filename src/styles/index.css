@@ -356,8 +356,8 @@ video {
 .offernav .offers {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-gap: 1rem;
-  width: 100%;
+  grid-gap: 2rem;
+  width: 70%;
   margin: auto;
 }
 .offernav .offers .offer1 {
@@ -392,8 +392,8 @@ video {
   border-bottom-right-radius: 35px;
   display: flex;
   align-items: center;
-  padding: 80px;
-  background-size: contain;
+  padding: 50px;
+  background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
   justify-content: center;
