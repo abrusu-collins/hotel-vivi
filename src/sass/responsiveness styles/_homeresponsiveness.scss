@@ -88,18 +88,18 @@
   }
 }
 @media screen and (max-width: 701px) {
-    .place {
-        & .reasons {
-            width: 100%;
-          }
+  .place {
+    & .reasons {
+      width: 100%;
     }
-    .top-left {
-        border-top-left-radius: 0;
-      }
-      .bottom-right {
-        border-bottom-right-radius: 0;
-      }
   }
+  .top-left {
+    border-top-left-radius: 0;
+  }
+  .bottom-right {
+    border-bottom-right-radius: 0;
+  }
+}
 //reviews
 @media screen and (max-width: 1141px) {
   .reviews {
@@ -109,7 +109,7 @@
     }
   }
 }
-@media screen and (max-width: 1141px) {
+@media screen and (max-width: 941px) {
   .reviews {
     & .flex-2,
     .flex-1 {
@@ -119,6 +119,9 @@
 }
 @media screen and (max-width: 801px) {
   .reviews {
+    & .reviewsheading {
+      font-size: 40px;
+    }
     & .flex-2 {
       grid-template-columns: 1fr;
     }
