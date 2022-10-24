@@ -806,6 +806,11 @@ video {
     width: 90%;
   }
 }
+@media screen and (max-width: 801px) {
+  .place .title {
+    font-size: 40px;
+  }
+}
 @media screen and (max-width: 1141px) {
   .reviews .flex-2,
 .reviews .flex-1 {

@@ -74,7 +74,16 @@
     }
   }
 }
-
+@media screen and (max-width: 801px) {
+  .place {
+    & .title {
+      font-size: 40px;
+    }
+    & .reasons {
+    //   width: 80%;
+    }
+  }
+}
 //reviews
 @media screen and (max-width: 1141px) {
   .reviews {
