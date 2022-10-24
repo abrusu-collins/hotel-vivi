@@ -3,12 +3,19 @@
     & .footer-inner {
       & .quick {
         & .thelinks {
-            display: grid;
-            grid-template-columns: repeat(3,1fr);
-            text-align: center;
-            grid-gap:2rem;
+          display: grid;
+          grid-template-columns: repeat(3, 1fr);
+          text-align: center;
+          grid-gap: 2rem;
         }
       }
+    }
+  }
+}
+@media screen and (max-width: 801px) {
+  .footer {
+    & .footer-inner {
+      width: 80%;
     }
   }
 }

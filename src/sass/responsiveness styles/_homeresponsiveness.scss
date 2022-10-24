@@ -79,9 +79,6 @@
     & .title {
       font-size: 40px;
     }
-    & .reasons {
-    //   width: 80%;
-    }
   }
 }
 //reviews
@@ -98,6 +95,16 @@
     & .flex-2,
     .flex-1 {
       width: 90%;
+    }
+  }
+}
+@media screen and (max-width: 801px) {
+  .reviews {
+    & .flex-2 {
+      grid-template-columns: 1fr;
+    }
+    & .flex-1{
+        padding: 30px;
     }
   }
 }

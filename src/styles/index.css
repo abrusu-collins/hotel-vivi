@@ -823,11 +823,24 @@ video {
     width: 90%;
   }
 }
+@media screen and (max-width: 801px) {
+  .reviews .flex-2 {
+    grid-template-columns: 1fr;
+  }
+  .reviews .flex-1 {
+    padding: 30px;
+  }
+}
 @media screen and (max-width: 1141px) {
   .footer .footer-inner .quick .thelinks {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     text-align: center;
     grid-gap: 2rem;
+  }
+}
+@media screen and (max-width: 801px) {
+  .footer .footer-inner {
+    width: 80%;
   }
 }
