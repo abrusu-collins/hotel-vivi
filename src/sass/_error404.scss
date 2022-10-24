@@ -12,6 +12,10 @@
       width: 50%;
       & .error_message_head {
         @include head_style;
+        padding: 0;
+      }
+      & .error_message_about{
+        margin: 40px 0;
       }
     }
     & img {

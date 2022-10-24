@@ -714,6 +714,10 @@ video {
   padding: 50px 0;
   font-family: "Roboto Slab", serif;
   text-align: center;
+  padding: 0;
+}
+.error404 .error404_inner .error_message .error_message_about {
+  margin: 40px 0;
 }
 .error404 .error404_inner img {
   width: 40%;
