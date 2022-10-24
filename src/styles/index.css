@@ -750,6 +750,14 @@ video {
   text-align: center;
 }
 
+@media screen and (max-width: 351px) {
+  .hero .text .home {
+    font-size: 20px;
+  }
+  .hero .text .welcome {
+    font-size: 40px;
+  }
+}
 @media screen and (max-width: 1141px) {
   .luxury .carousel {
     width: 70%;

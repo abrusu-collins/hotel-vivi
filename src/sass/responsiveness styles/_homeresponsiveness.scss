@@ -1,3 +1,16 @@
+//hero
+@media screen and (max-width: 351px) {
+  .hero {
+    & .text {
+      & .home {
+        font-size: 20px;
+      }
+      & .welcome {
+        font-size: 40px;
+      }
+    }
+  }
+}
 //luxury
 @media screen and (max-width: 1141px) {
   .luxury {
@@ -106,8 +119,8 @@
       width: 100%;
       & > div {
         grid-template-columns: 1fr;
-        & img{
-            display: none;
+        & img {
+          display: none;
         }
       }
     }
