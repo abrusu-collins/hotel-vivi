@@ -41,8 +41,12 @@
   .spa {
     .spa-hero {
       background-position: center;
+      justify-content: center;
+      background-position: center;
       & div {
-        width: 100%;
+        margin: 0;
+        width: 90%;
+        text-align: center;
       }
     }
     & .time-off {
@@ -69,8 +73,6 @@
 @media screen and (max-width: 495px) {
   .spa {
     .spa-hero {
-      justify-content: center;
-      background-position: center;
       & div {
         margin: 0;
         width: 90%;
@@ -84,12 +86,12 @@
     & .spa-hero {
       & div {
         & .spa-hero-head {
-            font-size: 40px;
-          }
+          font-size: 40px;
+        }
       }
     }
-    & .time-off{
-        width: 90%;
+    & .time-off {
+      width: 90%;
     }
   }
 }

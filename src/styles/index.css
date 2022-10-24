@@ -937,9 +937,13 @@ video {
 @media screen and (max-width: 695px) {
   .spa .spa-hero {
     background-position: center;
+    justify-content: center;
+    background-position: center;
   }
   .spa .spa-hero div {
-    width: 100%;
+    margin: 0;
+    width: 90%;
+    text-align: center;
   }
   .spa .time-off .time-off-head {
     font-size: 40px;
@@ -956,10 +960,6 @@ video {
   }
 }
 @media screen and (max-width: 495px) {
-  .spa .spa-hero {
-    justify-content: center;
-    background-position: center;
-  }
   .spa .spa-hero div {
     margin: 0;
     width: 90%;
