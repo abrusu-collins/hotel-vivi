@@ -1065,3 +1065,16 @@ video {
     list-style: none;
   }
 }
+@media screen and (max-width: 701px) {
+  .rooms_suites .rooms_suiteshead {
+    font-size: 40px;
+  }
+  .rooms_suites .therooms {
+    width: 80%;
+  }
+}
+@media screen and (max-width: 551px) {
+  .rooms_suites .therooms {
+    width: 90%;
+  }
+}
