@@ -1,0 +1,22 @@
+@media screen and (max-width: 1142px) {
+  .restaurant_bar {
+    & .restaurant_bar_hero {
+        & img {
+          width: 60%;
+        }
+      }
+    & .the_menu {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+}
+@media screen and (max-width: 842px) {
+    .restaurant_bar {
+      & .restaurant_bar_hero {
+          & img {
+            width: 70%;
+          }
+        }
+    }
+  }
+  
