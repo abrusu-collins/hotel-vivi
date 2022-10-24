@@ -1,6 +1,7 @@
 .error404 {
   background-color: $primary_background;
   color: $primary_color;
+  border-top: 2px dashed $primary_color;
   margin: auto;
   padding: 50px 0;
   text-align: center;

@@ -696,6 +696,7 @@ video {
 .error404 {
   background-color: #000000;
   color: #fcfeff;
+  border-top: 2px dashed #fcfeff;
   margin: auto;
   padding: 50px 0;
   text-align: center;
