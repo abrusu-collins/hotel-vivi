@@ -15,7 +15,7 @@ function Hero() {
       <div className="text">
         <p className="welcome">Welcome to Hotelvivi</p>
         <p className="home">Your home away from home</p>
-        <a href=" ">Book A Room</a>
+        <a href="mailto:snillochemingson@gmail.com">Book A Room</a>
       </div>
     </div>
   );

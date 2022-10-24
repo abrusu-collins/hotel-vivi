@@ -19,7 +19,7 @@ function SPA() {
             we hope to deliver the best service possible, every time. We look
             forward to providing you a first-class spa experience!
           </p>
-          <a href=" ">Book Now</a>
+          <a href="mailto:snillochemingson@gmail.com">Book Now</a>
         </div>
       </div>
 

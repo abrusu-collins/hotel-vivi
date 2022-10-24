@@ -14,7 +14,7 @@ function Wellness() {
             spirit, renew your skin and regenerate that tired body. Come and
             experience the the most thrilling spa treatment at hotelvivi.
           </p>
-          <a href=" ">Get Offer</a>
+          <a href="mailto:snillochemingson@gmail.com">Get Offer</a>
         </div>
       </div>
     </div>

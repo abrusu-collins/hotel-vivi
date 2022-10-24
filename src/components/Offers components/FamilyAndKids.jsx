@@ -14,7 +14,7 @@ function FamilyAndKids() {
             be a part in this therby making the world a better place for the
             future generations.
           </p>
-          <a href=" ">Get Offer</a>
+          <a href="mailto:snillochemingson@gmail.com">Get Offer</a>
         </div>
       </div>
     </div>

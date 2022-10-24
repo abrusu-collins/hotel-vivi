@@ -14,7 +14,7 @@ function SuitelySensational() {
             idyllic island hideaway, there will always be a special suite offer
             that is perfect for you.
           </p>
-          <a href=" ">Get Offer</a>
+          <a href="mailto:snillochemingson@gmail.com">Get Offer</a>
         </div>
       </div>
     </div>

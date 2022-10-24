@@ -13,7 +13,7 @@ function Romantic() {
             gifts amongst couples is time well spent together. At Hotelvivi, we
             will do everything in our power to make your dreams come true!
           </p>
-          <a href=" ">Get Offer</a>
+          <a href="mailto:snillochemingson@gmail.com">Get Offer</a>
         </div>
       </div>
     </div>

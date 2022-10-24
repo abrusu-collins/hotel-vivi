@@ -12,7 +12,7 @@ function Meetings() {
             spaces can accomodate up to 35 people. We delight you with tasteful
             breakfasts, themed coffee breaks, lunches, gala dinners and buffets.
           </p>
-          <a href=" ">Get Offer</a>
+          <a href="mailto:snillochemingson@gmail.com">Get Offer</a>
         </div>
       </div>
     </div>

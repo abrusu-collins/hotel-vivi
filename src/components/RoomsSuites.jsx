@@ -29,7 +29,7 @@ function RoomsSuites() {
                 <li>In-room safe</li>
               </ul>
             </div>
-            <a href=" ">Reserve Now</a>
+            <a href="mailto:snillochemingson@gmail.com">Reserve Now</a>
           </div>
         </div>
 
@@ -51,7 +51,7 @@ function RoomsSuites() {
                 <li>Deluxe bathroom amenities</li>
               </ul>
             </div>
-            <a href=" ">Reserve Now</a>
+            <a href="mailto:snillochemingson@gmail.com">Reserve Now</a>
           </div>
         </div>
 
@@ -72,7 +72,7 @@ function RoomsSuites() {
                 <li>Deluxe bathroom amenities</li>
               </ul>
             </div>
-            <a href=" ">Reserve Now</a>
+            <a href="mailto:snillochemingson@gmail.com">Reserve Now</a>
           </div>
         </div>
 
@@ -94,7 +94,7 @@ function RoomsSuites() {
                 <li>iHome alarm clock with Bluetooth capability</li>
               </ul>
             </div>
-            <a href=" ">Reserve Now</a>
+            <a href="mailto:snillochemingson@gmail.com">Reserve Now</a>
           </div>
         </div>
 
@@ -116,7 +116,7 @@ function RoomsSuites() {
                 <li>Deluxe bathroom amenities</li>
               </ul>
             </div>
-            <a href=" ">Reserve Now</a>
+            <a href="mailto:snillochemingson@gmail.com">Reserve Now</a>
           </div>
         </div>
 
@@ -136,7 +136,7 @@ function RoomsSuites() {
                 <li>Hair dryer</li>
               </ul>
             </div>
-            <a href=" ">Reserve Now</a>
+            <a href="mailto:snillochemingson@gmail.com">Reserve Now</a>
           </div>
         </div>
 
@@ -154,7 +154,7 @@ function RoomsSuites() {
                 <li>Custom marble or Art Deco tiling bathroom</li>
               </ul>
             </div>
-            <a href=" ">Reserve Now</a>
+            <a href="mailto:snillochemingson@gmail.com">Reserve Now</a>
           </div>
         </div>
       </div>
