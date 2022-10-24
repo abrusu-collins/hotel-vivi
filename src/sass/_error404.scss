@@ -1,10 +1,23 @@
-.error404{
+.error404 {
+  background-color: $primary_background;
+  color: $primary_color;
+  margin: auto;
+  padding: 50px 0;
+  text-align: center;
+  & .error404_inner {
     @include flexer;
-    justify-content: space-around;
-    background-color: $primary_background;
-    color:$primary_color;
-    & img{
-        width:50%;
-        @include image_border_width;
+    justify-content: space-between;
+    & .error_message {
+      & .error_message_head {
+        @include head_style;
+      }
     }
+    & img {
+      width: 50%;
+      @include image_border_width;
+    }
+    & a {
+      @include button_style;
+    }
+  }
 }

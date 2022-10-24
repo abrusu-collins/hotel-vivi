@@ -694,16 +694,36 @@ video {
 }
 
 .error404 {
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
   background-color: #000000;
   color: #fcfeff;
+  margin: auto;
+  padding: 50px 0;
+  text-align: center;
 }
-.error404 img {
+.error404 .error404_inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.error404 .error404_inner .error_message .error_message_head {
+  font-size: 60px;
+  padding: 50px 0;
+  font-family: "Roboto Slab", serif;
+  text-align: center;
+}
+.error404 .error404_inner img {
   width: 50%;
   border-top-left-radius: 35px;
   border-bottom-right-radius: 35px;
+}
+.error404 .error404_inner a {
+  text-decoration: none;
+  color: inherit;
+  background-color: #fe0036;
+  padding: 12px 30px;
+  display: inline-block;
+  border-top-left-radius: 15px;
+  border-bottom-right-radius: 15px;
 }
 
 @media screen and (max-width: 788px) {
