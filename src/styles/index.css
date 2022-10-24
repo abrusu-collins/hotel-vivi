@@ -936,3 +936,30 @@ video {
     width: 90%;
   }
 }
+@media screen and (max-width: 695px) {
+  .spa .spa-hero {
+    background-position: center;
+  }
+  .spa .spa-hero div {
+    width: 100%;
+  }
+  .spa .time-off .time-off-head {
+    font-size: 40px;
+  }
+  .spa .spa-services .spa-services-head {
+    font-size: 60px;
+    padding: 50px 0;
+    font-family: "Roboto Slab", serif;
+    text-align: center;
+  }
+  .spa .spa-services .spa-services-head {
+    font-size: 40px;
+  }
+  .spa .spa-services .all-spa-services {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .spa .spa-services .all-spa-services .service .each-service-details {
+    margin-top: 20px;
+    text-align: center;
+  }
+}

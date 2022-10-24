@@ -16,25 +16,56 @@
       }
     }
     & .time-off {
-        width: 70%;
+      width: 70%;
     }
-    & .spa-services{
-        & .all-spa-services {
-            width: 80%;
-        }
+    & .spa-services {
+      & .all-spa-services {
+        width: 80%;
+      }
     }
   }
 }
 @media screen and (max-width: 795px) {
-    .spa {
-      & .time-off {
-          width: 80%;
-      }
-      & .spa-services{
-          & .all-spa-services {
-              width: 90%;
-          }
+  .spa {
+    & .time-off {
+      width: 80%;
+    }
+    & .spa-services {
+      & .all-spa-services {
+        width: 90%;
       }
     }
   }
-  
+}
+@media screen and (max-width: 695px) {
+  .spa {
+    .spa-hero {
+      background-position: center;
+      & div {
+        width: 100%;
+      }
+    }
+    & .time-off {
+      & .time-off-head {
+        font-size: 40px;
+      }
+    }
+    & .spa-services {
+      & .spa-services-head {
+        @include head_style;
+      }
+      & .spa-services-head {
+        font-size: 40px;
+      }
+      & .all-spa-services {
+        grid-template-columns: repeat(1, 1fr);
+        & .service {
+              & .each-service-details {
+                margin-top: 20px;
+                text-align: center;
+              }
+        }
+      }
+    }
+  }
+}
