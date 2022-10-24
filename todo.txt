@@ -1,2 +1,1 @@
-width to border
 responsive
