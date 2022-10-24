@@ -1146,6 +1146,14 @@ video {
     font-size: 40px;
   }
 }
+@media screen and (max-width: 370px) {
+  .romantic {
+    padding-bottom: 0;
+  }
+  .romantic .romantic-inner {
+    padding-bottom: 0;
+  }
+}
 @media screen and (max-width: 995px) {
   .error404 {
     margin: auto;

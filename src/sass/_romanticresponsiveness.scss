@@ -24,3 +24,11 @@
     }
   }
 }
+@media screen and (max-width: 370px) {
+  .romantic {
+    padding-bottom: 0;
+    & .romantic-inner {
+      padding-bottom: 0;
+    }
+  }
+}
