@@ -15,3 +15,11 @@
     }
   }
 }
+@media screen and (max-width: 795px) {
+  .error404 {
+    & .error404_inner {
+      flex-direction: column;
+      width: 75%;
+    }
+  }
+}
