@@ -876,8 +876,19 @@ video {
 }
 @media screen and (max-width: 601px) {
   .footer .footer-inner .quick .thelinks {
-    display: grid;
     grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media screen and (max-width: 481px) {
+  .footer {
+    text-align: center;
+  }
+  .footer .footer-inner .quick .thelinks {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .footer .footer-inner .devandreach {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
     text-align: center;
     grid-gap: 2rem;
   }

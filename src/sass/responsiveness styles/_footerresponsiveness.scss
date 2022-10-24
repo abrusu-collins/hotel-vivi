@@ -20,16 +20,31 @@
   }
 }
 @media screen and (max-width: 601px) {
-    .footer {
-      & .footer-inner {
-        & .quick {
-          & .thelinks {
-            display: grid;
-            grid-template-columns: repeat(2, 1fr);
-            text-align: center;
-            grid-gap: 2rem;
-          }
+  .footer {
+    & .footer-inner {
+      & .quick {
+        & .thelinks {
+          grid-template-columns: repeat(2, 1fr);
         }
       }
     }
   }
+}
+@media screen and (max-width: 481px) {
+  .footer {
+    text-align: center;
+    & .footer-inner {
+      & .quick {
+        & .thelinks {
+          grid-template-columns: repeat(1, 1fr);
+        }
+      }
+      & .devandreach {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        text-align: center;
+        grid-gap: 2rem;
+      }
+    }
+  }
+}
