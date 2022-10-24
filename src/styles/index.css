@@ -1168,4 +1168,19 @@ video {
     flex-direction: column;
     width: 75%;
   }
+  .error404 .error404_inner .error_message .error_message_head {
+    font-size: 40px;
+  }
+}
+@media screen and (max-width: 495px) {
+  .error404 .error404_inner {
+    flex-direction: column;
+    width: 85%;
+  }
+}
+@media screen and (max-width: 355px) {
+  .error404 .error404_inner {
+    flex-direction: column;
+    width: 95%;
+  }
 }
