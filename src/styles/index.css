@@ -1048,6 +1048,7 @@ video {
     background-color: #080808;
     padding-bottom: 30px;
     border-bottom-right-radius: 25px;
+    overflow: hidden;
   }
   .rooms_suites .therooms .room .roomname {
     padding: 30px 0;
@@ -1060,6 +1061,10 @@ video {
   }
   .rooms_suites .therooms .room img {
     width: 100%;
+    transition: 0.8s;
+  }
+  .rooms_suites .therooms .room img:hover {
+    transform: scale(1.1);
   }
   .rooms_suites .therooms .room ul {
     list-style: none;

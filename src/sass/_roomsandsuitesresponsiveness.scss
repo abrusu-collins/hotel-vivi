@@ -8,6 +8,7 @@
         background-color: $dark_background;
         padding-bottom: 30px;
         border-bottom-right-radius: 25px;
+        overflow: hidden;
         & .roomname {
           padding: 30px 0;
         }
@@ -19,6 +20,10 @@
         }
         & img {
           width: 100%;
+          transition: 0.8s;
+          &:hover {
+            transform: scale(1.1);
+          }
         }
         & ul {
           list-style: none;
