@@ -1146,3 +1146,20 @@ video {
     font-size: 40px;
   }
 }
+@media screen and (max-width: 995px) {
+  .error404 {
+    margin: auto;
+  }
+  .error404 .error404_inner {
+    flex-direction: column;
+    width: 60%;
+    margin: auto;
+    padding-bottom: 30px;
+  }
+  .error404 .error404_inner img {
+    width: 100%;
+  }
+  .error404 .error404_inner .error_message_head {
+    margin-top: 30px;
+  }
+}
