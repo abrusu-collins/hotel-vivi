@@ -25,3 +25,16 @@
     }
   }
 }
+@media screen and (max-width: 795px) {
+    .spa {
+      & .time-off {
+          width: 80%;
+      }
+      & .spa-services{
+          & .all-spa-services {
+              width: 90%;
+          }
+      }
+    }
+  }
+  
