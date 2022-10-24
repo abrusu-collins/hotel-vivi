@@ -760,3 +760,13 @@ video {
     width: 80%;
   }
 }
+@media screen and (max-width: 1141px) {
+  .place .reasons {
+    width: 80%;
+  }
+}
+@media screen and (max-width: 1141px) {
+  .reviews .flex-2, .reviews .flex-1 {
+    width: 80%;
+  }
+}
