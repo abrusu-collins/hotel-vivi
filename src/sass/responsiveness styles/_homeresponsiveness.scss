@@ -75,6 +75,13 @@
     }
   }
 }
+@media screen and (max-width: 351px) {
+  .all4u {
+    .offers {
+      width: 90%;
+    }
+  }
+}
 //place
 @media screen and (max-width: 1141px) {
   .place {
@@ -115,6 +122,7 @@
 }
 @media screen and (max-width: 551px) {
   .place {
+    text-align: center;
     & .reasons {
       width: 100%;
       & > div {

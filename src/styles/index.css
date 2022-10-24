@@ -806,6 +806,11 @@ video {
     width: 80%;
   }
 }
+@media screen and (max-width: 351px) {
+  .all4u .offers {
+    width: 90%;
+  }
+}
 @media screen and (max-width: 1141px) {
   .place .title {
     padding: 50px 20px;
@@ -836,6 +841,9 @@ video {
   }
 }
 @media screen and (max-width: 551px) {
+  .place {
+    text-align: center;
+  }
   .place .reasons {
     width: 100%;
   }
