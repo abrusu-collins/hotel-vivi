@@ -9,12 +9,25 @@
         }
     }
 }
-
+@media screen and (max-width:941px) {
+    .luxury{
+        & .carousel{
+            width: 80%;
+        }
+    }
+}
 //all4u
 @media screen and (max-width:1141px) {
     .all4u{
         & .offers{
             width: 80%;
+        }
+    }
+}
+@media screen and (max-width:941px) {
+    .all4u{
+        & .offers{
+            width: 90%;
         }
     }
 }
@@ -27,12 +40,26 @@
         }
     }
 }
+@media screen and (max-width:941px) {
+    .place{
+        & .reasons{
+            width: 90%;
+        }
+    }
+}
 
 //reviews
 @media screen and (max-width:1141px) {
     .reviews{
         & .flex-2, .flex-1{
             width: 80%;
+        }
+    }
+}
+@media screen and (max-width:1141px) {
+    .reviews{
+        & .flex-2, .flex-1{
+            width: 90%;
         }
     }
 }
