@@ -734,7 +734,7 @@ video {
   border-bottom-right-radius: 15px;
 }
 
-@media screen and (max-width: 788px) {
+@media screen and (max-width: 800px) {
   .navbar .bar {
     display: block;
   }
@@ -766,11 +766,18 @@ video {
   }
 }
 @media screen and (max-width: 941px) {
+  .all4u .all4uheading {
+    padding: 50px 30px;
+  }
   .all4u .offers {
     width: 90%;
+    grid-gap: 2rem;
   }
 }
 @media screen and (max-width: 1141px) {
+  .place .title {
+    padding: 50px 20px;
+  }
   .place .reasons {
     width: 80%;
   }
@@ -781,12 +788,14 @@ video {
   }
 }
 @media screen and (max-width: 1141px) {
-  .reviews .flex-2, .reviews .flex-1 {
+  .reviews .flex-2,
+.reviews .flex-1 {
     width: 80%;
   }
 }
 @media screen and (max-width: 1141px) {
-  .reviews .flex-2, .reviews .flex-1 {
+  .reviews .flex-2,
+.reviews .flex-1 {
     width: 90%;
   }
 }
