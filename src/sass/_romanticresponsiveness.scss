@@ -1,9 +1,26 @@
-@media screen and (max-width:1187px) {
-    .romantic{
-        & .romantic-inner{
-            display: flex;
-            flex-direction: column-reverse;
-        }
+@media screen and (max-width: 1187px) {
+  .romantic {
+    & .romantic-inner {
+      display: flex;
+      flex-direction: column-reverse;
+      & img {
+        object-fit: contain;
+        object-position: top;
+        height: 80vh;
+        width: 100%;
+        margin-top: 50px;
+      }
     }
-    
+  }
+}
+@media screen and (max-width: 1187px) {
+  .romantic {
+    & .romantic-inner {
+      & div {
+        & .romance-main-head {
+          font-size: 40px;
+        }
+      }
+    }
+  }
 }

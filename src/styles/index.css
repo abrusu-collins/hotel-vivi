@@ -417,8 +417,6 @@ video {
 }
 .romantic .romantic-inner img {
   width: 70%;
-  border-top-left-radius: 25px;
-  border-bottom-right-radius: 25px;
 }
 .romantic .romantic-inner div {
   display: flex;
@@ -1110,5 +1108,19 @@ video {
   .romantic .romantic-inner {
     display: flex;
     flex-direction: column-reverse;
+  }
+  .romantic .romantic-inner img {
+    -o-object-fit: contain;
+       object-fit: contain;
+    -o-object-position: top;
+       object-position: top;
+    height: 80vh;
+    width: 100%;
+    margin-top: 50px;
+  }
+}
+@media screen and (max-width: 1187px) {
+  .romantic .romantic-inner div .romance-main-head {
+    font-size: 40px;
   }
 }
