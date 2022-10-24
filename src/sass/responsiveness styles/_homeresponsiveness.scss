@@ -1,0 +1,22 @@
+
+
+
+//luxury
+@media screen and (max-width:1141px) {
+    .luxury{
+        & .carousel{
+            width: 70%;
+        }
+    }
+}
+
+//all4u
+@media screen and (max-width:1141px) {
+    .all4u{
+        & .offers{
+            width: 80%;
+        }
+    }
+}
+
+//places

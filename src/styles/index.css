@@ -749,3 +749,14 @@ video {
   display: block !important;
   text-align: center;
 }
+
+@media screen and (max-width: 1141px) {
+  .luxury .carousel {
+    width: 70%;
+  }
+}
+@media screen and (max-width: 1141px) {
+  .all4u .offers {
+    width: 80%;
+  }
+}

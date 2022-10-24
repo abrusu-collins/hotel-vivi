@@ -30,7 +30,7 @@ function App() {
         <Route path="/offers" element={<Offers />} />
         <Route path="/spa" element={<SPA />} />
         <Route path="*" element={<Error404 />} />
-        
+
         {/* Offer routes */}
         <Route path="/offers/romanticoffer" element={<Romantic />} />
         <Route path="/offers/familyandkids" element={<FamilyAndKids />} />
