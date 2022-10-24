@@ -10,7 +10,7 @@
     width: 50%;
     margin: auto;
     & img {
-      @include image_border_width;
+      @include image_border_radius;
     }
   }
 }

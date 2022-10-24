@@ -20,7 +20,7 @@
         margin: 30px 0 30px 15px;
       }
       & img {
-        @include image_border_width;
+        @include image_border_radius;
         width: 50%;
       }
       & a {

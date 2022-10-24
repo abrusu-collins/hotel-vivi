@@ -20,7 +20,7 @@
     }
     & img {
       width: 40%;
-      @include image_border_width;
+      @include image_border_radius;
     }
     & a {
       @include button_style;

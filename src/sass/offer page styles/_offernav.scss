@@ -58,7 +58,7 @@
       @include button_style;
     }
     & div {
-      @include image_border_width;
+      @include image_border_radius;
       @include flexer;
       height: 40vh;
       background-size: contain;

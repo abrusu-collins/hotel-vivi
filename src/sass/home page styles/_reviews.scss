@@ -21,7 +21,7 @@
     width: 70%;
     margin: auto;
     & div {
-      @include image_border_width;
+      @include image_border_radius;
       background-color: $dark_background;
       text-align: center;
       padding: 30px;
@@ -33,7 +33,7 @@
     border-radius: 50%;
   }
   & .flex-1 {
-    @include image_border_width;
+    @include image_border_radius;
     @include flexer;
     width: 70%;
     margin: 50px auto 0 auto;

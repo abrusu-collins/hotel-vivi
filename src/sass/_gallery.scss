@@ -18,7 +18,7 @@
       overflow: hidden;
     }
     & img {
-      @include image_border_width;
+      @include image_border_radius;
       width: 100%;
       height: 100%;
       object-fit: cover;
