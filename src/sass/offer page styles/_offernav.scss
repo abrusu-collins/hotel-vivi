@@ -9,8 +9,8 @@
   & .offers {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-gap: 5rem;
-    width: 70%;
+    grid-gap: 1rem;
+    width: 100%;
     margin: auto;
     & .offer1 {
       background-image: linear-gradient(
@@ -60,7 +60,7 @@
     & div {
       @include image_border_radius;
       @include flexer;
-      height: 40vh;
+      padding: 80px;
       background-size: contain;
       background-repeat: no-repeat;
       background-position: center;

@@ -356,8 +356,8 @@ video {
 .offernav .offers {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-gap: 5rem;
-  width: 70%;
+  grid-gap: 1rem;
+  width: 100%;
   margin: auto;
 }
 .offernav .offers .offer1 {
@@ -392,7 +392,7 @@ video {
   border-bottom-right-radius: 35px;
   display: flex;
   align-items: center;
-  height: 40vh;
+  padding: 80px;
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
@@ -1104,5 +1104,11 @@ video {
 @media screen and (max-width: 351px) {
   .gallery .grid {
     width: 90%;
+  }
+}
+@media screen and (max-width: 1187px) {
+  .romantic .romantic-inner {
+    display: flex;
+    flex-direction: column-reverse;
   }
 }

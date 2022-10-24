@@ -1,0 +1,9 @@
+@media screen and (max-width:1187px) {
+    .romantic{
+        & .romantic-inner{
+            display: flex;
+            flex-direction: column-reverse;
+        }
+    }
+    
+}
