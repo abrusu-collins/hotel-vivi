@@ -1116,6 +1116,16 @@ video {
     width: 80%;
   }
 }
+@media screen and (max-width: 650px) {
+  .offernav .offers {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+@media screen and (max-width: 351px) {
+  .offernav .offers {
+    width: 87%;
+  }
+}
 @media screen and (max-width: 1187px) {
   .romantic .romantic-inner {
     display: flex;

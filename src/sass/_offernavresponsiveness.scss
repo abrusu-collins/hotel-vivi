@@ -18,3 +18,18 @@
     }
   }
 }
+@media screen and (max-width: 650px) {
+  .offernav {
+    & .offers {
+      grid-template-columns: repeat(1, 1fr);
+    }
+  }
+}
+
+@media screen and (max-width: 351px) {
+  .offernav {
+    & .offers {
+      width: 87%;
+    }
+  }
+}
