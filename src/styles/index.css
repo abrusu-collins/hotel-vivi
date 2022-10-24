@@ -827,6 +827,17 @@ video {
     border-bottom-right-radius: 0;
   }
 }
+@media screen and (max-width: 551px) {
+  .place .reasons {
+    width: 100%;
+  }
+  .place .reasons > div {
+    grid-template-columns: 1fr;
+  }
+  .place .reasons > div img {
+    display: none;
+  }
+}
 @media screen and (max-width: 1141px) {
   .reviews .flex-2,
 .reviews .flex-1 {
