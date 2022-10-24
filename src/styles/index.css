@@ -921,4 +921,10 @@ video {
   .spa .spa-hero div {
     width: 50%;
   }
+  .spa .time-off {
+    width: 70%;
+  }
+  .spa .spa-services .all-spa-services {
+    width: 80%;
+  }
 }

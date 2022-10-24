@@ -1,19 +1,27 @@
-@media screen and (max-width:1095px) {
-    .spa{
-        .spa-hero{
-            & div{
-                width: 50%;
-            }
-        }
+@media screen and (max-width: 1095px) {
+  .spa {
+    .spa-hero {
+      & div {
+        width: 50%;
+      }
     }
+  }
 }
-@media screen and (max-width:995px) {
-    .spa{
-        .spa-hero{
-            background-position: center;
-            & div{
-                width: 50%;
-            }
+@media screen and (max-width: 995px) {
+  .spa {
+    .spa-hero {
+      background-position: center;
+      & div {
+        width: 50%;
+      }
+    }
+    & .time-off {
+        width: 70%;
+    }
+    & .spa-services{
+        & .all-spa-services {
+            width: 80%;
         }
     }
+  }
 }
