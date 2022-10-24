@@ -55,7 +55,13 @@
     }
   }
 }
-
+@media screen and (max-width: 701px) {
+  .all4u {
+    .offers {
+      width: 80%;
+    }
+  }
+}
 //place
 @media screen and (max-width: 1141px) {
   .place {
@@ -81,6 +87,19 @@
     }
   }
 }
+@media screen and (max-width: 701px) {
+    .place {
+        & .reasons {
+            width: 100%;
+          }
+    }
+    .top-left {
+        border-top-left-radius: 0;
+      }
+      .bottom-right {
+        border-bottom-right-radius: 0;
+      }
+  }
 //reviews
 @media screen and (max-width: 1141px) {
   .reviews {
@@ -103,8 +122,8 @@
     & .flex-2 {
       grid-template-columns: 1fr;
     }
-    & .flex-1{
-        padding: 30px;
+    & .flex-1 {
+      padding: 30px;
     }
   }
 }

@@ -793,6 +793,11 @@ video {
     grid-template-columns: 1fr;
   }
 }
+@media screen and (max-width: 701px) {
+  .all4u .offers {
+    width: 80%;
+  }
+}
 @media screen and (max-width: 1141px) {
   .place .title {
     padding: 50px 20px;
@@ -809,6 +814,17 @@ video {
 @media screen and (max-width: 801px) {
   .place .title {
     font-size: 40px;
+  }
+}
+@media screen and (max-width: 701px) {
+  .place .reasons {
+    width: 100%;
+  }
+  .top-left {
+    border-top-left-radius: 0;
+  }
+  .bottom-right {
+    border-bottom-right-radius: 0;
   }
 }
 @media screen and (max-width: 1141px) {
