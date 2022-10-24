@@ -693,6 +693,19 @@ video {
   grid-area: _19;
 }
 
+.error404 {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #000000;
+  color: #fcfeff;
+}
+.error404 img {
+  width: 50%;
+  border-top-left-radius: 35px;
+  border-bottom-right-radius: 35px;
+}
+
 @media screen and (max-width: 788px) {
   .navbar .bar {
     display: block;

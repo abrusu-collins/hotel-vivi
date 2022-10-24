@@ -1,2 +1,3 @@
 404 page
+width to border
 responsive
