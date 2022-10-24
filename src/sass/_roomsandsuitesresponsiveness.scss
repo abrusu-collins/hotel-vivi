@@ -1,0 +1,25 @@
+@media screen and (max-width: 923px) {
+  .rooms_suites {
+    & .therooms {
+      width: 70%;
+      & .room {
+        flex-direction: column;
+        text-align: center;
+        background-color: $dark_background;
+        padding-bottom: 30px;
+        & .roomname {
+          padding: 30px 0;
+        }
+        & .details {
+          margin: 0 0 30px 0;
+        }
+        & img {
+          width: 100%;
+        }
+        & ul {
+          list-style: none;
+        }
+      }
+    }
+  }
+}
