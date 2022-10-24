@@ -1098,6 +1098,9 @@ video {
   .gallery .grid {
     width: 85%;
   }
+  .gallery .gallery-head {
+    font-size: 40px;
+  }
 }
 @media screen and (max-width: 351px) {
   .gallery .grid {
@@ -1119,6 +1122,9 @@ video {
 @media screen and (max-width: 650px) {
   .offernav .offers {
     grid-template-columns: repeat(1, 1fr);
+  }
+  .offernav .offerpagehead {
+    font-size: 40px;
   }
 }
 @media screen and (max-width: 351px) {

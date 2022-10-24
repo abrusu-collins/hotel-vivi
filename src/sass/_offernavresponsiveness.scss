@@ -4,10 +4,6 @@
       display: grid;
       grid-template-columns: repeat(2, 1fr);
       grid-gap: 3rem;
-      //   width: 80%;
-
-      //   & div{
-      //   }
     }
   }
 }
@@ -22,6 +18,9 @@
   .offernav {
     & .offers {
       grid-template-columns: repeat(1, 1fr);
+    }
+    & .offerpagehead {
+      font-size: 40px;
     }
   }
 }
