@@ -760,6 +760,15 @@ video {
     width: 80%;
   }
 }
+@media screen and (max-width: 801px) {
+  .luxury .luxuryheading {
+    font-size: 40px;
+    padding: 50px 30px;
+  }
+  .luxury .carousel {
+    width: 90%;
+  }
+}
 @media screen and (max-width: 1141px) {
   .all4u .offers {
     width: 80%;
@@ -772,6 +781,16 @@ video {
   .all4u .offers {
     width: 90%;
     grid-gap: 2rem;
+  }
+}
+@media screen and (max-width: 801px) {
+  .all4u .all4uheading {
+    font-size: 40px;
+  }
+  .all4u .offers {
+    width: 70%;
+    grid-gap: 2rem;
+    grid-template-columns: 1fr;
   }
 }
 @media screen and (max-width: 1141px) {

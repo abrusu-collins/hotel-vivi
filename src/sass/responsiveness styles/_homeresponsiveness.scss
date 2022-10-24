@@ -13,6 +13,17 @@
     }
   }
 }
+@media screen and (max-width: 801px) {
+  .luxury {
+    & .luxuryheading {
+      font-size: 40px;
+      padding: 50px 30px;
+    }
+    & .carousel {
+      width: 90%;
+    }
+  }
+}
 //all4u
 @media screen and (max-width: 1141px) {
   .all4u {
@@ -24,11 +35,23 @@
 @media screen and (max-width: 941px) {
   .all4u {
     & .all4uheading {
-        padding: 50px 30px;
-      }
+      padding: 50px 30px;
+    }
     & .offers {
       width: 90%;
       grid-gap: 2rem;
+    }
+  }
+}
+@media screen and (max-width: 801px) {
+  .all4u {
+    & .all4uheading {
+      font-size: 40px;
+    }
+    & .offers {
+      width: 70%;
+      grid-gap: 2rem;
+      grid-template-columns: 1fr;
     }
   }
 }
@@ -37,8 +60,8 @@
 @media screen and (max-width: 1141px) {
   .place {
     & .title {
-        padding: 50px 20px;
-      }
+      padding: 50px 20px;
+    }
     & .reasons {
       width: 80%;
     }
