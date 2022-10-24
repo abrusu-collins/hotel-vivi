@@ -4,9 +4,9 @@ import "aos/dist/aos.css";
 import { useEffect } from "react";
 
 function RestaurantBar() {
-    useEffect(() => {
-        AOS.init();
-      }, []);
+  useEffect(() => {
+    AOS.init();
+  }, []);
 
   return (
     <div className="restaurant_bar">
@@ -63,14 +63,14 @@ function RestaurantBar() {
           </div>
         </div>
         <div className="lunch_dinner" data-aos="fade-up">
-          <p className="each_menu_head">Lunch and Dinner</p>
+          <p className="each_menu_head">Lunch/Dinner</p>
           <div className="menu_list">
             <div className="food_price">
-              <p className="food"> Béarnaise, Green Salad & Chips  </p>
+              <p className="food"> Béarnaise & Green Salad </p>
               <p className="price">£35</p>
             </div>
             <div className="food_price">
-              <p className="food"> Triple Cooked Chips & Mushy Peas</p>
+              <p className="food"> Triple Cooked Chips</p>
               <p className="price"> £20</p>
             </div>
             <div className="food_price">
@@ -78,11 +78,11 @@ function RestaurantBar() {
               <p className="price"> £28</p>
             </div>
             <div className="food_price">
-              <p className="food">Pickles, Radish & Toast  </p>
+              <p className="food">Pickles, Radish & Toast </p>
               <p className="price">£12</p>
             </div>
             <div className="food_price">
-              <p className="food">  Brown Crab Potatoes & Pickled Mussels  </p>
+              <p className="food"> Brown Crab Potatoes </p>
               <p className="price">£32</p>
             </div>
             <div className="food_price">
@@ -94,7 +94,7 @@ function RestaurantBar() {
               <p className="price">£21</p>
             </div>
             <div className="food_price">
-              <p className="food"> North Essex Shorthorn Prime Rib for 2 </p>
+              <p className="food"> North Essex Shorthorn Prime Rib</p>
               <p className="price">£75</p>
             </div>
             <div className="food_price">
