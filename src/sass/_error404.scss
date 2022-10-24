@@ -7,14 +7,15 @@
   text-align: center;
   & .error404_inner {
     @include flexer;
-    justify-content: space-between;
+    justify-content: space-around;
     & .error_message {
+      width: 50%;
       & .error_message_head {
         @include head_style;
       }
     }
     & img {
-      width: 50%;
+      width: 40%;
       @include image_border_width;
     }
     & a {

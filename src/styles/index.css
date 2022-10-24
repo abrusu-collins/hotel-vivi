@@ -704,7 +704,10 @@ video {
 .error404 .error404_inner {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-around;
+}
+.error404 .error404_inner .error_message {
+  width: 50%;
 }
 .error404 .error404_inner .error_message .error_message_head {
   font-size: 60px;
@@ -713,7 +716,7 @@ video {
   text-align: center;
 }
 .error404 .error404_inner img {
-  width: 50%;
+  width: 40%;
   border-top-left-radius: 35px;
   border-bottom-right-radius: 35px;
 }
