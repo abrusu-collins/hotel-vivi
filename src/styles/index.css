@@ -1083,3 +1083,26 @@ video {
     width: 90%;
   }
 }
+@media screen and (max-width: 1078px) {
+  .gallery .grid div {
+    border: 10px solid #000000;
+  }
+}
+@media screen and (max-width: 900px) {
+  .gallery .grid {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+  }
+}
+@media screen and (max-width: 700px) {
+  .gallery .grid {
+    width: 85%;
+  }
+}
+@media screen and (max-width: 351px) {
+  .gallery .grid {
+    width: 90%;
+  }
+}
