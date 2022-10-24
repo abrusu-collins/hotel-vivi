@@ -947,12 +947,6 @@ video {
     font-size: 40px;
   }
   .spa .spa-services .spa-services-head {
-    font-size: 60px;
-    padding: 50px 0;
-    font-family: "Roboto Slab", serif;
-    text-align: center;
-  }
-  .spa .spa-services .spa-services-head {
     font-size: 40px;
   }
   .spa .spa-services .all-spa-services {
@@ -961,5 +955,24 @@ video {
   .spa .spa-services .all-spa-services .service .each-service-details {
     margin-top: 20px;
     text-align: center;
+  }
+}
+@media screen and (max-width: 495px) {
+  .spa .spa-hero {
+    justify-content: center;
+    background-position: center;
+  }
+  .spa .spa-hero div {
+    margin: 0;
+    width: 90%;
+    text-align: center;
+  }
+}
+@media screen and (max-width: 395px) {
+  .spa .spa-hero div .spa-hero-head {
+    font-size: 40px;
+  }
+  .spa .time-off {
+    width: 90%;
   }
 }

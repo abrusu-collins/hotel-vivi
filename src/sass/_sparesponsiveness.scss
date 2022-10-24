@@ -52,20 +52,44 @@
     }
     & .spa-services {
       & .spa-services-head {
-        @include head_style;
-      }
-      & .spa-services-head {
         font-size: 40px;
       }
       & .all-spa-services {
         grid-template-columns: repeat(1, 1fr);
         & .service {
-              & .each-service-details {
-                margin-top: 20px;
-                text-align: center;
-              }
+          & .each-service-details {
+            margin-top: 20px;
+            text-align: center;
+          }
         }
       }
+    }
+  }
+}
+@media screen and (max-width: 495px) {
+  .spa {
+    .spa-hero {
+      justify-content: center;
+      background-position: center;
+      & div {
+        margin: 0;
+        width: 90%;
+        text-align: center;
+      }
+    }
+  }
+}
+@media screen and (max-width: 395px) {
+  .spa {
+    & .spa-hero {
+      & div {
+        & .spa-hero-head {
+            font-size: 40px;
+          }
+      }
+    }
+    & .time-off{
+        width: 90%;
     }
   }
 }
