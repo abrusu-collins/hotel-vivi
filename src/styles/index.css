@@ -909,3 +909,16 @@ video {
     grid-gap: 2rem;
   }
 }
+@media screen and (max-width: 1095px) {
+  .spa .spa-hero div {
+    width: 50%;
+  }
+}
+@media screen and (max-width: 995px) {
+  .spa .spa-hero {
+    background-position: center;
+  }
+  .spa .spa-hero div {
+    width: 50%;
+  }
+}
