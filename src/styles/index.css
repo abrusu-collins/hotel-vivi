@@ -1047,12 +1047,16 @@ video {
     text-align: center;
     background-color: #080808;
     padding-bottom: 30px;
+    border-bottom-right-radius: 25px;
   }
   .rooms_suites .therooms .room .roomname {
     padding: 30px 0;
   }
   .rooms_suites .therooms .room .details {
     margin: 0 0 30px 0;
+  }
+  .rooms_suites .therooms .room .details li {
+    margin-bottom: 15px;
   }
   .rooms_suites .therooms .room img {
     width: 100%;
