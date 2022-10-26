@@ -17,7 +17,7 @@ function Footer() {
         <div className="devandreach">
           <div>
             <p className="footertopics">Developed By:</p>
-            <a href="devsedem.netlify.app">Collins Abrusu</a>
+            <a href="https://devsedem.netlify.app">Collins Abrusu</a>
           </div>
           <div>
             <p className="footertopics">Contact Us:</p>
