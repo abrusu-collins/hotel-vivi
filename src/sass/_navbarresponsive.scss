@@ -1,20 +1,47 @@
-@media screen and (max-width: 800px) {
-    .navbar {
-      .bar {
-        display: block;
+// Navbar responsiveness
+@media screen and (max-width: 1053px) {
+  nav {
+    & .navbar {
+      width: 100%;
+    }
+  }
+}
+@media screen and (min-width: 893px) {
+  nav {
+    & .navbar {
+      & ul {
+        display: flex;
       }
-      ul {
+    }
+    & .bar {
+      display: none;
+    }
+  }
+}
+@media screen and (max-width: 893px) {
+  nav {
+    & .navbar {
+      width: 100%;
+      & ul {
         display: none;
-        & li {
-          margin-bottom: 20px;
+      }
+    }
+    & .mobile-nav {
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+      align-items: center;
+      justify-content: center;
+      & li {
+        list-style: none;
+        & a {
+          @include navbar_button_style;
+          &:hover {
+            background-color: $button_background;
+            opacity: 1;
+          }
         }
       }
     }
   }
-  
-  .navremoval {
-    display: block !important;
-    text-align: center;
-  }
-  
-  
+}

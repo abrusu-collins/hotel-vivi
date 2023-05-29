@@ -1,28 +1,42 @@
-.navbar {
-  @include flexer;
+nav {
+  position: sticky;
+  top: 0;
+  width: 100%;
+  z-index: 10000;
   background-color: $primary_background;
   color: $primary_color;
   padding: 30px 0;
-  justify-content: space-around;
-  & p {
-    font-family: "Roboto Slab", serif;
-  }
-  & ul {
-    @include flexer;
-    justify-content: space-between;
-    list-style: none;
-    & li {
-      margin-right: 40px;
-      & a {
-        @include navbar_button_style;
-        &:hover {
-          background-color: $button_background;
-          opacity: 1;
+  & .navbar {
+    & p {
+      font-family: "Roboto Slab", serif;
+      font-size: 24px;
+    }
+    width: 80%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    & img {
+      width: 4%;
+    }
+    & ul {
+      & li {
+        display: inline;
+        list-style: none;
+        & a {
+          @include navbar_button_style;
+          &:hover {
+            background-color: $button_background;
+            opacity: 1;
+          }
         }
+      }
+      & li:not(:last-child) {
+        margin-right: 50px;
       }
     }
   }
-  & .bar {
+  & ul {
     display: none;
   }
 }

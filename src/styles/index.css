@@ -18,11 +18,6 @@
   border-bottom-right-radius: 35px;
 }
 
-::-moz-selection {
-  color: black;
-  background: white;
-}
-
 ::selection {
   color: black;
   background: white;
@@ -32,38 +27,48 @@ a:hover {
   opacity: 0.5;
 }
 
-.navbar {
-  display: flex;
-  align-items: center;
+nav {
+  position: sticky;
+  top: 0;
+  width: 100%;
+  z-index: 10000;
   background-color: #000000;
   color: #fcfeff;
   padding: 30px 0;
-  justify-content: space-around;
 }
-.navbar p {
-  font-family: "Roboto Slab", serif;
-}
-.navbar ul {
+nav .navbar {
+  width: 80%;
+  margin: auto;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-around;
+}
+nav .navbar p {
+  font-family: "Roboto Slab", serif;
+  font-size: 24px;
+}
+nav .navbar img {
+  width: 4%;
+}
+nav .navbar ul li {
+  display: inline;
   list-style: none;
 }
-.navbar ul li {
-  margin-right: 40px;
-}
-.navbar ul li a {
+nav .navbar ul li a {
   text-decoration: none;
   color: inherit;
   padding: 10px;
   border-top-left-radius: 15px;
   border-bottom-right-radius: 15px;
 }
-.navbar ul li a:hover {
+nav .navbar ul li a:hover {
   background-color: #fe0036;
   opacity: 1;
 }
-.navbar .bar {
+nav .navbar ul li:not(:last-child) {
+  margin-right: 50px;
+}
+nav ul {
   display: none;
 }
 
@@ -107,8 +112,7 @@ a:hover {
 }
 
 video {
-  -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
   width: 100vw;
   height: 100vh;
   position: fixed;
@@ -650,8 +654,7 @@ video {
   border-bottom-right-radius: 35px;
   width: 100%;
   height: 100%;
-  -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
   transition: 0.8s;
 }
 .gallery .grid img:hover {
@@ -732,22 +735,48 @@ video {
   border-bottom-right-radius: 15px;
 }
 
-@media screen and (max-width: 800px) {
-  .navbar .bar {
-    display: block;
+@media screen and (max-width: 1053px) {
+  nav .navbar {
+    width: 100%;
   }
-  .navbar ul {
+}
+@media screen and (min-width: 893px) {
+  nav .navbar ul {
+    display: flex;
+  }
+  nav .bar {
     display: none;
   }
-  .navbar ul li {
-    margin-bottom: 20px;
+}
+@media screen and (max-width: 893px) {
+  nav .navbar {
+    width: 100%;
+  }
+  nav .navbar ul {
+    display: none;
+  }
+  nav .mobile-nav {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    align-items: center;
+    justify-content: center;
+  }
+  nav .mobile-nav li {
+    list-style: none;
+  }
+  nav .mobile-nav li a {
+    text-decoration: none;
+    color: inherit;
+    padding: 10px;
+    border-top-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+  }
+  nav .mobile-nav li a:hover {
+    background-color: #fe0036;
+    opacity: 1;
   }
 }
-.navremoval {
-  display: block !important;
-  text-align: center;
-}
-
 @media screen and (max-width: 351px) {
   .hero .text .home {
     font-size: 20px;
@@ -854,13 +883,13 @@ video {
 }
 @media screen and (max-width: 1141px) {
   .reviews .flex-2,
-.reviews .flex-1 {
+  .reviews .flex-1 {
     width: 80%;
   }
 }
 @media screen and (max-width: 941px) {
   .reviews .flex-2,
-.reviews .flex-1 {
+  .reviews .flex-1 {
     width: 90%;
   }
 }
@@ -1138,10 +1167,8 @@ video {
     flex-direction: column-reverse;
   }
   .romantic .romantic-inner img {
-    -o-object-fit: contain;
-       object-fit: contain;
-    -o-object-position: top;
-       object-position: top;
+    object-fit: contain;
+    object-position: top;
     height: 80vh;
     width: 100%;
     margin-top: 50px;
